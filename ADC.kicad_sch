@@ -8222,6 +8222,12 @@
 		(uuid "1495fe93-410e-4a59-b014-eb6adbefb862")
 	)
 	(junction
+		(at 441.96 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14f42a31-09d6-490b-9d79-458c1a882f33")
+	)
+	(junction
 		(at 198.12 251.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8268,6 +8274,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "313e6d68-c68a-4797-96d1-96143d7377a3")
+	)
+	(junction
+		(at 458.47 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "337d2f8e-3b3d-4560-b8ef-9a1dd9618982")
 	)
 	(junction
 		(at 369.57 208.28)
@@ -8564,6 +8576,12 @@
 		(uuid "aed9eaac-f482-4901-bea1-e577b253974c")
 	)
 	(junction
+		(at 474.98 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b231031c-3afd-4eba-9397-e36491149124")
+	)
+	(junction
 		(at 438.15 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8808,10 +8826,6 @@
 		(uuid "4e4484a2-a766-4950-aba8-bd677fd677e8")
 	)
 	(no_connect
-		(at 417.83 210.82)
-		(uuid "52aa506f-1c88-4b53-ab8b-87e128324c4c")
-	)
-	(no_connect
 		(at 431.8 252.73)
 		(uuid "53058e65-8edc-4185-8b61-f1c6e09e6be1")
 	)
@@ -8822,10 +8836,6 @@
 	(no_connect
 		(at 431.8 261.62)
 		(uuid "591485a9-ee36-4f0a-bc87-7c76298d3941")
-	)
-	(no_connect
-		(at 420.37 210.82)
-		(uuid "595d6d47-2965-4ac5-8502-03c433b6cafa")
 	)
 	(no_connect
 		(at 394.97 304.8)
@@ -8842,6 +8852,10 @@
 	(no_connect
 		(at 384.81 304.8)
 		(uuid "5e1f28f3-5483-4509-b0c5-29ee7358704a")
+	)
+	(no_connect
+		(at 466.09 224.79)
+		(uuid "66f5b6a0-9243-4029-b769-cb9198b89b8d")
 	)
 	(no_connect
 		(at 358.14 227.33)
@@ -9475,6 +9489,16 @@
 	)
 	(wire
 		(pts
+			(xy 458.47 236.22) (xy 474.98 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d809097-fbcb-4972-8516-31f03d225835")
+	)
+	(wire
+		(pts
 			(xy 267.97 67.31) (xy 267.97 63.5)
 		)
 		(stroke
@@ -9785,6 +9809,16 @@
 	)
 	(wire
 		(pts
+			(xy 417.83 207.01) (xy 474.98 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f0dc50e-26ac-416a-ab6d-3df71c4c148e")
+	)
+	(wire
+		(pts
 			(xy 369.57 208.28) (xy 372.11 208.28)
 		)
 		(stroke
@@ -10075,6 +10109,16 @@
 	)
 	(wire
 		(pts
+			(xy 441.96 236.22) (xy 458.47 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47fb1fa6-93de-426e-84da-480e4a9ccdbd")
+	)
+	(wire
+		(pts
 			(xy 63.5 148.59) (xy 63.5 146.05)
 		)
 		(stroke
@@ -10162,6 +10206,16 @@
 			(type default)
 		)
 		(uuid "4e6f4598-b052-401a-8359-9d4100604fa8")
+	)
+	(wire
+		(pts
+			(xy 417.83 210.82) (xy 417.83 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4faa7876-2ae9-4695-90fa-a0cdb31bcb92")
 	)
 	(wire
 		(pts
@@ -10292,6 +10346,16 @@
 			(type default)
 		)
 		(uuid "5a74601e-8b63-422d-a6b0-897c0317f633")
+	)
+	(wire
+		(pts
+			(xy 474.98 219.71) (xy 474.98 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5abf63e9-02c0-4755-9925-566b6bddd73f")
 	)
 	(wire
 		(pts
@@ -10515,6 +10579,16 @@
 	)
 	(wire
 		(pts
+			(xy 420.37 209.55) (xy 420.37 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66cf5e3e-2b13-4122-8ca5-cf80378fb695")
+	)
+	(wire
+		(pts
 			(xy 64.77 328.93) (xy 68.58 328.93)
 		)
 		(stroke
@@ -10692,6 +10766,16 @@
 			(type default)
 		)
 		(uuid "755e0c61-5f6e-4d5f-af89-51deaec5bbc6")
+	)
+	(wire
+		(pts
+			(xy 474.98 207.01) (xy 474.98 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "758fc2e8-4e19-4a7a-8ab4-f770441af9b2")
 	)
 	(wire
 		(pts
@@ -10875,6 +10959,16 @@
 	)
 	(wire
 		(pts
+			(xy 474.98 236.22) (xy 474.98 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f8231bc-9b22-46c1-95b7-bd88a72960d7")
+	)
+	(wire
+		(pts
 			(xy 389.89 208.28) (xy 392.43 208.28)
 		)
 		(stroke
@@ -11032,6 +11126,16 @@
 			(type default)
 		)
 		(uuid "8bb3b089-bf33-4c0b-95ba-954079355de5")
+	)
+	(wire
+		(pts
+			(xy 458.47 236.22) (xy 458.47 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c769cd0-a539-43c6-be1b-92ea9dcdb242")
 	)
 	(polyline
 		(pts
@@ -11255,6 +11359,16 @@
 	)
 	(wire
 		(pts
+			(xy 441.96 209.55) (xy 420.37 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a27f8b2b-b376-426d-b2de-1e51c3547bd5")
+	)
+	(wire
+		(pts
 			(xy 86.36 320.04) (xy 86.36 322.58)
 		)
 		(stroke
@@ -11352,6 +11466,16 @@
 			(type default)
 		)
 		(uuid "aaa09967-13d4-46a8-aaf3-16c693c2c84c")
+	)
+	(wire
+		(pts
+			(xy 441.96 219.71) (xy 441.96 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab550689-f7bd-4697-829e-662a70f96fb0")
 	)
 	(wire
 		(pts
@@ -11665,6 +11789,16 @@
 	)
 	(wire
 		(pts
+			(xy 441.96 233.68) (xy 441.96 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c379ee2c-a3d0-4b35-bd54-01f7d3d77a51")
+	)
+	(wire
+		(pts
 			(xy 180.34 201.93) (xy 180.34 198.12)
 		)
 		(stroke
@@ -11692,6 +11826,16 @@
 			(type default)
 		)
 		(uuid "c4c111c8-64c2-4929-981f-3612dc8f0969")
+	)
+	(wire
+		(pts
+			(xy 474.98 219.71) (xy 466.09 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5b6d820-387e-4c80-8487-e2cfa7971e1c")
 	)
 	(wire
 		(pts
@@ -12175,6 +12319,16 @@
 	)
 	(wire
 		(pts
+			(xy 441.96 219.71) (xy 441.96 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9c1716f-bb0a-495b-8951-beff0f2c6f1b")
+	)
+	(wire
+		(pts
 			(xy 369.57 208.28) (xy 369.57 210.82)
 		)
 		(stroke
@@ -12232,6 +12386,16 @@
 			(type default)
 		)
 		(uuid "edafbf93-43eb-460c-bae8-1e0653eede40")
+	)
+	(wire
+		(pts
+			(xy 450.85 219.71) (xy 441.96 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee8caeba-2a31-4f95-8657-ef9ae503cabb")
 	)
 	(wire
 		(pts
@@ -13740,6 +13904,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 441.96 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ab384f7-da44-4070-958b-0bf2ee403b8c")
+		(property "Reference" "C12"
+			(at 435.356 228.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10p"
+			(at 435.102 231.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 442.9252 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 441.96 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 441.96 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82a3fb21-9735-47fa-96d0-09cdeb478bfa")
+		)
+		(pin "2"
+			(uuid "8b24b69f-3b52-4db8-a0a2-0841539e7439")
+		)
+		(instances
+			(project "ADC"
+				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 212.09 69.85 90)
 		(unit 1)
@@ -15132,6 +15365,72 @@
 			(project "ADC"
 				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 458.47 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37b5dd78-9e4f-408c-8948-3a0d9695affa")
+		(property "Reference" "#PWR046"
+			(at 458.47 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 458.47 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 458.47 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 458.47 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 458.47 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6679d58a-4748-4c7d-b98c-65104abe6577")
+		)
+		(instances
+			(project "ADC"
+				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -18126,6 +18425,75 @@
 			(project "ADC"
 				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 474.98 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e5fd7a6-28ea-41ac-8685-d22ae1bc85f2")
+		(property "Reference" "C42"
+			(at 468.376 228.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10p"
+			(at 468.122 231.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 475.9452 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 474.98 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 474.98 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7f4b890-2297-4123-98b8-9ddb29944e3f")
+		)
+		(pin "2"
+			(uuid "8a5cd5d9-b321-4e53-a246-f360ee502919")
+		)
+		(instances
+			(project "ADC"
+				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -22226,7 +22594,7 @@
 	)
 	(symbol
 		(lib_id "ABM3B-25.000MHZ-D2Y-T:ABM3B-25.000MHZ-D2Y-T")
-		(at 556.26 163.83 0)
+		(at 458.47 219.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22235,7 +22603,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9cbad39-353c-4b31-9f9c-c8ce2d701f5b")
 		(property "Reference" "Y2"
-			(at 556.26 153.67 0)
+			(at 458.47 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22243,7 +22611,7 @@
 			)
 		)
 		(property "Value" "ABM3B-25.000MHZ-D2Y-T"
-			(at 556.26 156.21 0)
+			(at 458.47 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22251,7 +22619,7 @@
 			)
 		)
 		(property "Footprint" "ABM3B-25.000MHZ-D2Y-T:XTAL_ABM3B-25.000MHZ-D2Y-T"
-			(at 556.26 163.83 0)
+			(at 458.47 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22261,7 +22629,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 556.26 163.83 0)
+			(at 458.47 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22270,7 +22638,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 556.26 163.83 0)
+			(at 458.47 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22279,7 +22647,7 @@
 			)
 		)
 		(property "MF" "Abracon"
-			(at 556.26 163.83 0)
+			(at 458.47 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22289,7 +22657,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.1 mm"
-			(at 556.26 163.83 0)
+			(at 458.47 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22299,7 +22667,7 @@
 			)
 		)
 		(property "Package" "SMD-4 Abracon LLC"
-			(at 556.26 163.83 0)
+			(at 458.47 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22309,7 +22677,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 556.26 163.83 0)
+			(at 458.47 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22319,7 +22687,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/ABM3B-25.000MHZ-D2Y-T/Abracon/view-part/?ref=eda"
-			(at 556.26 163.83 0)
+			(at 458.47 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22329,7 +22697,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 556.26 163.83 0)
+			(at 458.47 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22339,7 +22707,7 @@
 			)
 		)
 		(property "PARTREV" "08.25.15"
-			(at 556.26 163.83 0)
+			(at 458.47 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22349,7 +22717,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ABM3B-25.000MHZ-D2Y-T/Abracon/view-part/?ref=snap"
-			(at 556.26 163.83 0)
+			(at 458.47 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22359,7 +22727,7 @@
 			)
 		)
 		(property "MP" "ABM3B-25.000MHZ-D2Y-T"
-			(at 556.26 163.83 0)
+			(at 458.47 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22369,7 +22737,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            25 MHz ±20ppm Crystal 18pF 50 Ohms 4-SMD, No Lead\n                        \n"
-			(at 556.26 163.83 0)
+			(at 458.47 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22379,7 +22747,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 556.26 163.83 0)
+			(at 458.47 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22389,7 +22757,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Abracon"
-			(at 556.26 163.83 0)
+			(at 458.47 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
