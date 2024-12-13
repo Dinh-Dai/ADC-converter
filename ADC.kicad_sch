@@ -4531,163 +4531,6 @@
 				)
 			)
 		)
-		(symbol "Device:D_TVS_Filled"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_TVS_Filled"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode TVS thyrector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_TVS_Filled_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "D_TVS_Filled_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:FerriteBead"
 			(pin_numbers hide)
 			(pin_names
@@ -13114,10 +12957,22 @@
 		(uuid "1736d3ad-127f-4e56-bee5-22b3f0711853")
 	)
 	(junction
+		(at 190.5 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17589afb-d025-4772-bbf3-fd836e9c1ebb")
+	)
+	(junction
 		(at 622.3 444.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c36f8f1-682b-4bf9-a650-b8aa362009b2")
+	)
+	(junction
+		(at 190.5 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ee3d023-21bf-4b62-9586-75f318e662d4")
 	)
 	(junction
 		(at 640.08 434.34)
@@ -13222,7 +13077,7 @@
 		(uuid "36c35039-1589-459c-82a3-e3ffbd47adbe")
 	)
 	(junction
-		(at 182.88 195.58)
+		(at 171.45 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36c6b797-d44c-4943-90bc-a9100bb8ee61")
@@ -13414,6 +13269,12 @@
 		(uuid "59758d2b-b115-4682-a457-2e14677cf35c")
 	)
 	(junction
+		(at 876.3 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a9600da-fc01-4e0d-ba59-a8af17b9aed2")
+	)
+	(junction
 		(at 769.62 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13444,6 +13305,12 @@
 		(uuid "5e7cd477-8799-47a4-ba33-9afba6201a22")
 	)
 	(junction
+		(at 190.5 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ec399aa-5655-4d2c-a57b-e38fd23a526a")
+	)
+	(junction
 		(at 530.86 676.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13462,7 +13329,7 @@
 		(uuid "62fe8c5f-805a-4eec-a208-ebfc9a862c3d")
 	)
 	(junction
-		(at 182.88 176.53)
+		(at 171.45 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65bd7c33-8747-4b36-a3f9-b5960e576488")
@@ -13576,7 +13443,7 @@
 		(uuid "720a58e4-f323-41e5-b9f5-c36b36e7d275")
 	)
 	(junction
-		(at 855.98 111.76)
+		(at 854.71 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "745c8de0-0715-47b0-9066-581c321c2b47")
@@ -13624,6 +13491,12 @@
 		(uuid "7d900b4f-22a0-4e54-8022-1380c899fdaf")
 	)
 	(junction
+		(at 190.5 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ea45b19-9c62-4195-9f7a-84cc7a3978be")
+	)
+	(junction
 		(at 967.74 487.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13634,6 +13507,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8514a9eb-0cfd-43f0-bbcb-7b4a8d6ddd40")
+	)
+	(junction
+		(at 172.72 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88552457-5c39-41f9-8a00-44e04fe4880f")
 	)
 	(junction
 		(at 806.45 114.3)
@@ -13720,12 +13599,6 @@
 		(uuid "961a60e5-7f83-4374-a879-e7f5379bd00e")
 	)
 	(junction
-		(at 182.88 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "964b6ed7-e041-4587-8d27-4a3e6c160378")
-	)
-	(junction
 		(at 932.18 541.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13750,6 +13623,12 @@
 		(uuid "9c2f4096-b142-4af4-9068-a7b1993f99af")
 	)
 	(junction
+		(at 190.5 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9de3b471-c82b-468e-bb27-4b7e6c881aed")
+	)
+	(junction
 		(at 786.13 402.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13760,6 +13639,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9fd89a6b-0ea4-4f5a-aa63-e76a0430f814")
+	)
+	(junction
+		(at 866.14 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2ffd7a3-7528-4763-ac7e-6cd2c043de13")
 	)
 	(junction
 		(at 265.43 570.23)
@@ -13840,7 +13725,7 @@
 		(uuid "b6ecbd33-9963-4513-9eac-94c058f63104")
 	)
 	(junction
-		(at 182.88 139.7)
+		(at 172.72 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9500463-ff4a-4643-8fe6-077997b826e5")
@@ -13870,7 +13755,7 @@
 		(uuid "c207acbc-6abc-472f-9ca4-95e364c7dd2a")
 	)
 	(junction
-		(at 182.88 87.63)
+		(at 171.45 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c32ed10e-fd87-4aa0-80c4-cdb9f3b049fd")
@@ -13948,6 +13833,12 @@
 		(uuid "d60f2f59-fff4-488c-aa45-33e5efa358ec")
 	)
 	(junction
+		(at 191.77 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d80338d9-1478-45d4-860b-284c40843741")
+	)
+	(junction
 		(at 325.12 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13976,12 +13867,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddf11e74-8ae4-4c88-bd93-854ca7a2be29")
-	)
-	(junction
-		(at 182.88 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3c1d1ae-fce3-4ae0-9000-2dba18cb3b6e")
 	)
 	(junction
 		(at 222.25 684.53)
@@ -14032,6 +13917,12 @@
 		(uuid "ed6061d8-1e39-44ba-bc62-f7a649ea8201")
 	)
 	(junction
+		(at 173.99 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eea6206f-f814-4f48-a893-20854e9d3506")
+	)
+	(junction
 		(at 1000.76 500.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14044,7 +13935,7 @@
 		(uuid "ef0ecbf0-652c-40d1-b21f-fa6ceb408da9")
 	)
 	(junction
-		(at 182.88 121.92)
+		(at 172.72 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef4b6104-7c35-45f2-90f3-96465d01e1f5")
@@ -14056,10 +13947,16 @@
 		(uuid "f1976adb-bc6d-4b2c-b59e-d2efaf19964f")
 	)
 	(junction
-		(at 182.88 157.48)
+		(at 171.45 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f208d310-31ad-49c8-b774-3de11f40ff79")
+	)
+	(junction
+		(at 190.5 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f57d8d48-649e-47da-a651-cc148861813c")
 	)
 	(junction
 		(at 949.96 541.02)
@@ -14084,6 +13981,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa676858-e58d-4a31-8a8b-2fb6e3981d2e")
+	)
+	(junction
+		(at 191.77 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fba515ea-b491-4bc7-a886-3f73ed3e714e")
 	)
 	(junction
 		(at 473.71 571.5)
@@ -14513,6 +14416,16 @@
 	)
 	(wire
 		(pts
+			(xy 876.3 127) (xy 876.3 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02394326-ffed-44fe-b22f-d20d0bc774e0")
+	)
+	(wire
+		(pts
 			(xy 138.43 397.51) (xy 138.43 510.54)
 		)
 		(stroke
@@ -14530,6 +14443,16 @@
 			(type default)
 		)
 		(uuid "02abc0a8-80e5-40d1-b5a5-60a5885a8819")
+	)
+	(wire
+		(pts
+			(xy 190.5 73.66) (xy 200.66 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02d75016-3bb9-4668-b944-e8e9fd1cf7d1")
 	)
 	(wire
 		(pts
@@ -14783,7 +14706,7 @@
 	)
 	(wire
 		(pts
-			(xy 838.2 111.76) (xy 855.98 111.76)
+			(xy 838.2 111.76) (xy 854.71 111.76)
 		)
 		(stroke
 			(width 0)
@@ -14943,7 +14866,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 116.84) (xy 173.99 116.84)
+			(xy 160.02 106.68) (xy 162.56 106.68)
 		)
 		(stroke
 			(width 0)
@@ -15073,7 +14996,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 129.54) (xy 176.53 176.53)
+			(xy 165.1 119.38) (xy 165.1 175.26)
 		)
 		(stroke
 			(width 0)
@@ -15103,13 +15026,13 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 167.64) (xy 182.88 168.91)
+			(xy 191.77 92.71) (xy 201.93 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ffb6644-f845-4b94-bb1d-f9172417fde2")
+		(uuid "100adc54-c960-4001-aa8c-6558ba46eebe")
 	)
 	(wire
 		(pts
@@ -15160,6 +15083,16 @@
 			(type default)
 		)
 		(uuid "10ca51b4-7ecb-47ba-af6a-5094a540fe56")
+	)
+	(wire
+		(pts
+			(xy 190.5 133.35) (xy 190.5 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1115ff1e-3455-451b-9b8b-2a73cc6973eb")
 	)
 	(wire
 		(pts
@@ -15263,13 +15196,23 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 176.53) (xy 182.88 179.07)
+			(xy 171.45 175.26) (xy 171.45 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "13385eb1-1b7a-4631-9b90-a914c8f19328")
+	)
+	(wire
+		(pts
+			(xy 190.5 194.31) (xy 200.66 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "133aa14a-7112-4135-bbe4-cc48b73f18c0")
 	)
 	(wire
 		(pts
@@ -15343,13 +15286,23 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 92.71) (xy 339.09 100.33)
+			(xy 339.09 95.25) (xy 339.09 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "14806a65-f2a7-4a89-ba3a-550ceddc5394")
+	)
+	(wire
+		(pts
+			(xy 876.3 111.76) (xy 876.3 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1487810e-0a82-4800-814a-6ad2866d28dd")
 	)
 	(wire
 		(pts
@@ -15873,7 +15826,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 127) (xy 177.8 157.48)
+			(xy 166.37 116.84) (xy 166.37 153.67)
 		)
 		(stroke
 			(width 0)
@@ -15943,7 +15896,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 130.81) (xy 182.88 132.08)
+			(xy 172.72 123.19) (xy 172.72 124.46)
 		)
 		(stroke
 			(width 0)
@@ -15970,6 +15923,16 @@
 			(type default)
 		)
 		(uuid "23708797-19e8-4630-93bd-c1b3b62ff300")
+	)
+	(wire
+		(pts
+			(xy 172.72 63.5) (xy 172.72 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "239251c9-6afe-4cb5-aedf-163c9a6452d6")
 	)
 	(wire
 		(pts
@@ -16010,6 +15973,16 @@
 			(type default)
 		)
 		(uuid "24044ec7-6eff-41ee-b8d3-cbe17e52d85f")
+	)
+	(wire
+		(pts
+			(xy 165.1 109.22) (xy 160.02 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "241fdb1f-33f0-43d2-bda9-c695ca782751")
 	)
 	(wire
 		(pts
@@ -16273,7 +16246,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 87.63) (xy 182.88 88.9)
+			(xy 171.45 73.66) (xy 171.45 74.93)
 		)
 		(stroke
 			(width 0)
@@ -16483,7 +16456,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 195.58) (xy 182.88 195.58)
+			(xy 163.83 194.31) (xy 171.45 194.31)
 		)
 		(stroke
 			(width 0)
@@ -16510,16 +16483,6 @@
 			(type default)
 		)
 		(uuid "2d2350bb-fcc6-4753-ac4b-5a00b134c096")
-	)
-	(wire
-		(pts
-			(xy 182.88 71.12) (xy 212.09 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d53905a-5fe9-483d-a9bb-43d6aa79150e")
 	)
 	(wire
 		(pts
@@ -16653,6 +16616,16 @@
 	)
 	(wire
 		(pts
+			(xy 866.14 109.22) (xy 887.73 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef5e3e5-3d87-4851-9619-2d569b960f02")
+	)
+	(wire
+		(pts
 			(xy 970.28 539.75) (xy 1027.43 539.75)
 		)
 		(stroke
@@ -16683,6 +16656,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 133.35) (xy 172.72 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f71c307-5f18-4a0a-b07e-04ad046af570")
+	)
+	(wire
+		(pts
 			(xy 209.55 316.23) (xy 209.55 327.66)
 		)
 		(stroke
@@ -16693,7 +16676,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 139.7) (xy 179.07 124.46)
+			(xy 167.64 114.3) (xy 167.64 133.35)
 		)
 		(stroke
 			(width 0)
@@ -16760,6 +16743,16 @@
 			(type default)
 		)
 		(uuid "31b42d49-bf65-4e58-ad30-5b2a54222074")
+	)
+	(wire
+		(pts
+			(xy 191.77 111.76) (xy 201.93 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3220bfde-5785-4a52-80e6-c7b05ab416a1")
 	)
 	(wire
 		(pts
@@ -17083,6 +17076,16 @@
 	)
 	(wire
 		(pts
+			(xy 866.14 127) (xy 866.14 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3941a7b2-54d0-485e-a058-c06d161ae83f")
+	)
+	(wire
+		(pts
 			(xy 466.09 422.91) (xy 473.71 422.91)
 		)
 		(stroke
@@ -17173,6 +17176,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 167.64) (xy 171.45 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c3d17c8-edb9-4ad2-8eae-052952e5c2bd")
+	)
+	(wire
+		(pts
 			(xy 417.83 284.48) (xy 417.83 336.55)
 		)
 		(stroke
@@ -17253,7 +17266,7 @@
 	)
 	(wire
 		(pts
-			(xy 855.98 111.76) (xy 855.98 116.84)
+			(xy 854.71 111.76) (xy 854.71 116.84)
 		)
 		(stroke
 			(width 0)
@@ -17303,13 +17316,23 @@
 	)
 	(wire
 		(pts
-			(xy 868.68 114.3) (xy 869.95 114.3)
+			(xy 886.46 114.3) (xy 887.73 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3e30dd11-5388-4475-8a42-1b7181197ebf")
+	)
+	(wire
+		(pts
+			(xy 172.72 52.07) (xy 190.5 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e94d1ab-0823-4bee-9146-ce3bf264e4c0")
 	)
 	(wire
 		(pts
@@ -17350,16 +17373,6 @@
 			(type default)
 		)
 		(uuid "4022a322-1e9e-44f0-b3f7-84fff51c16d9")
-	)
-	(wire
-		(pts
-			(xy 179.07 124.46) (xy 172.72 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "406111e2-27eb-48e4-9121-e9e92cb58c1d")
 	)
 	(wire
 		(pts
@@ -17523,7 +17536,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 157.48) (xy 182.88 157.48)
+			(xy 166.37 153.67) (xy 171.45 153.67)
 		)
 		(stroke
 			(width 0)
@@ -17983,6 +17996,16 @@
 	)
 	(wire
 		(pts
+			(xy 866.14 109.22) (xy 866.14 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f9a2c4e-b409-48e5-8131-e07464d4c599")
+	)
+	(wire
+		(pts
 			(xy 970.28 543.56) (xy 970.28 539.75)
 		)
 		(stroke
@@ -18253,7 +18276,17 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 121.92) (xy 182.88 123.19)
+			(xy 167.64 114.3) (xy 160.02 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54583b85-cd28-4af1-9ea3-58b18d4730f3")
+	)
+	(wire
+		(pts
+			(xy 172.72 111.76) (xy 172.72 113.03)
 		)
 		(stroke
 			(width 0)
@@ -18513,7 +18546,7 @@
 	)
 	(wire
 		(pts
-			(xy 868.68 114.3) (xy 868.68 128.27)
+			(xy 886.46 114.3) (xy 886.46 128.27)
 		)
 		(stroke
 			(width 0)
@@ -18533,7 +18566,7 @@
 	)
 	(wire
 		(pts
-			(xy 844.55 109.22) (xy 869.95 109.22)
+			(xy 844.55 109.22) (xy 866.14 109.22)
 		)
 		(stroke
 			(width 0)
@@ -18550,16 +18583,6 @@
 			(type default)
 		)
 		(uuid "5af2f7f0-48e1-4566-88c1-48defe660a48")
-	)
-	(wire
-		(pts
-			(xy 182.88 186.69) (xy 182.88 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5aff7076-687a-427c-abf5-12046d2d392a")
 	)
 	(wire
 		(pts
@@ -18623,7 +18646,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 195.58) (xy 182.88 198.12)
+			(xy 171.45 194.31) (xy 171.45 196.85)
 		)
 		(stroke
 			(width 0)
@@ -18653,7 +18676,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 157.48) (xy 212.09 157.48)
+			(xy 171.45 153.67) (xy 190.5 153.67)
 		)
 		(stroke
 			(width 0)
@@ -18663,7 +18686,7 @@
 	)
 	(polyline
 		(pts
-			(xy 892.81 60.96) (xy 723.9 60.96)
+			(xy 911.86 60.96) (xy 723.9 60.96)
 		)
 		(stroke
 			(width 0)
@@ -18790,6 +18813,16 @@
 			(type default)
 		)
 		(uuid "5fbc2ff6-1523-49f4-8489-d4290efa20a8")
+	)
+	(wire
+		(pts
+			(xy 190.5 153.67) (xy 200.66 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fbeef9f-c19c-45ce-83a7-a541daf59144")
 	)
 	(wire
 		(pts
@@ -19053,7 +19086,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 157.48) (xy 182.88 160.02)
+			(xy 171.45 153.67) (xy 171.45 156.21)
 		)
 		(stroke
 			(width 0)
@@ -19113,16 +19146,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 119.38) (xy 175.26 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6606a359-6666-45d5-95a3-29e83e1af988")
-	)
-	(wire
-		(pts
 			(xy 427.99 113.03) (xy 447.04 113.03)
 		)
 		(stroke
@@ -19173,7 +19196,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 132.08) (xy 175.26 195.58)
+			(xy 163.83 121.92) (xy 163.83 194.31)
 		)
 		(stroke
 			(width 0)
@@ -19223,7 +19246,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 87.63) (xy 182.88 87.63)
+			(xy 162.56 73.66) (xy 171.45 73.66)
 		)
 		(stroke
 			(width 0)
@@ -20123,16 +20146,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 105.41) (xy 212.09 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79f0f191-da1e-4c20-bfb1-122ad1751c32")
-	)
-	(wire
-		(pts
 			(xy 515.62 300.99) (xy 532.13 300.99)
 		)
 		(stroke
@@ -20263,16 +20276,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 71.12) (xy 182.88 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cdd4961-d694-4bc0-b049-b97f0259ea0f")
-	)
-	(wire
-		(pts
 			(xy 248.92 698.5) (xy 265.43 698.5)
 		)
 		(stroke
@@ -20313,7 +20316,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 148.59) (xy 182.88 149.86)
+			(xy 172.72 144.78) (xy 172.72 146.05)
 		)
 		(stroke
 			(width 0)
@@ -20613,7 +20616,17 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 121.92) (xy 182.88 121.92)
+			(xy 165.1 92.71) (xy 165.1 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81fe9605-423f-4986-b66f-30f988591690")
+	)
+	(wire
+		(pts
+			(xy 160.02 111.76) (xy 172.72 111.76)
 		)
 		(stroke
 			(width 0)
@@ -20803,6 +20816,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 189.23) (xy 190.5 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "872d16ad-bc6a-4d60-bd49-23eddfd74d9a")
+	)
+	(wire
+		(pts
 			(xy 640.08 334.01) (xy 657.86 334.01)
 		)
 		(stroke
@@ -20810,6 +20833,16 @@
 			(type default)
 		)
 		(uuid "873a59f6-3e3c-41ce-993f-b2b66bf22f2e")
+	)
+	(wire
+		(pts
+			(xy 173.99 93.98) (xy 173.99 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "876e2aad-5f18-4d04-9506-5293d95a95af")
 	)
 	(wire
 		(pts
@@ -21033,7 +21066,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 105.41) (xy 182.88 105.41)
+			(xy 165.1 92.71) (xy 173.99 92.71)
 		)
 		(stroke
 			(width 0)
@@ -21061,19 +21094,9 @@
 		)
 		(uuid "8c769cd0-a539-43c6-be1b-92ea9dcdb242")
 	)
-	(wire
-		(pts
-			(xy 172.72 71.12) (xy 182.88 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c7c55a7-2db9-4696-b414-7d2ac0be9402")
-	)
 	(polyline
 		(pts
-			(xy 892.81 147.32) (xy 892.81 60.96)
+			(xy 911.86 147.32) (xy 911.86 60.96)
 		)
 		(stroke
 			(width 0)
@@ -21110,6 +21133,16 @@
 			(type default)
 		)
 		(uuid "8cfd6189-6e4d-4df6-aeb7-af8e749fe65f")
+	)
+	(wire
+		(pts
+			(xy 190.5 52.07) (xy 201.93 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d8fc057-f0c2-4d91-9031-2266eddd85cb")
 	)
 	(wire
 		(pts
@@ -21413,13 +21446,23 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 71.12) (xy 172.72 114.3)
+			(xy 160.02 52.07) (xy 160.02 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "93c644cf-590c-477e-8225-a5ef7cda6d37")
+	)
+	(wire
+		(pts
+			(xy 173.99 92.71) (xy 191.77 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "951c9285-d718-42f4-90a2-b57d87f2a2a4")
 	)
 	(wire
 		(pts
@@ -21643,7 +21686,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 116.84) (xy 173.99 87.63)
+			(xy 162.56 106.68) (xy 162.56 73.66)
 		)
 		(stroke
 			(width 0)
@@ -21683,7 +21726,7 @@
 	)
 	(wire
 		(pts
-			(xy 855.98 111.76) (xy 869.95 111.76)
+			(xy 854.71 111.76) (xy 876.3 111.76)
 		)
 		(stroke
 			(width 0)
@@ -21863,7 +21906,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 139.7) (xy 182.88 139.7)
+			(xy 201.93 133.35) (xy 190.5 133.35)
 		)
 		(stroke
 			(width 0)
@@ -21900,6 +21943,16 @@
 			(type default)
 		)
 		(uuid "9f9011d5-5380-4e89-9662-499d5b0c866b")
+	)
+	(wire
+		(pts
+			(xy 173.99 104.14) (xy 173.99 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fa0ca3e-b6e6-4c18-93d5-a1024ee1c2f2")
 	)
 	(wire
 		(pts
@@ -22123,7 +22176,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 205.74) (xy 182.88 207.01)
+			(xy 171.45 207.01) (xy 171.45 208.28)
 		)
 		(stroke
 			(width 0)
@@ -22243,7 +22296,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 134.62) (xy 172.72 139.7)
+			(xy 160.02 124.46) (xy 160.02 130.81)
 		)
 		(stroke
 			(width 0)
@@ -22443,6 +22496,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 186.69) (xy 171.45 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab503a75-2d86-4219-a6e8-2a0dd2a447f0")
+	)
+	(wire
+		(pts
 			(xy 994.41 552.45) (xy 994.41 542.29)
 		)
 		(stroke
@@ -22563,7 +22626,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 127) (xy 177.8 127)
+			(xy 160.02 116.84) (xy 166.37 116.84)
 		)
 		(stroke
 			(width 0)
@@ -22573,7 +22636,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 139.7) (xy 182.88 140.97)
+			(xy 172.72 133.35) (xy 172.72 134.62)
 		)
 		(stroke
 			(width 0)
@@ -22670,6 +22733,16 @@
 			(type default)
 		)
 		(uuid "b017d5d4-0afa-4e40-b1b1-35250b102d43")
+	)
+	(wire
+		(pts
+			(xy 160.02 52.07) (xy 172.72 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b01ebc54-7e48-49f2-8fde-342ecfbc966a")
 	)
 	(wire
 		(pts
@@ -22913,7 +22986,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 87.63) (xy 212.09 87.63)
+			(xy 171.45 73.66) (xy 190.5 73.66)
 		)
 		(stroke
 			(width 0)
@@ -23013,7 +23086,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 139.7) (xy 179.07 139.7)
+			(xy 172.72 133.35) (xy 167.64 133.35)
 		)
 		(stroke
 			(width 0)
@@ -23060,6 +23133,16 @@
 			(type default)
 		)
 		(uuid "b8c0e69f-3547-4159-bd3c-5a9769b3f9c2")
+	)
+	(wire
+		(pts
+			(xy 191.77 92.71) (xy 191.77 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b90a0c79-3bee-4969-a7b6-0450baf6f4e7")
 	)
 	(wire
 		(pts
@@ -23140,6 +23223,16 @@
 			(type default)
 		)
 		(uuid "bacae44b-de46-44d0-9638-d104e22c9157")
+	)
+	(wire
+		(pts
+			(xy 191.77 106.68) (xy 191.77 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bacc8456-80de-4043-b953-7ff8adb76da6")
 	)
 	(wire
 		(pts
@@ -23573,7 +23666,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 176.53) (xy 182.88 176.53)
+			(xy 165.1 175.26) (xy 171.45 175.26)
 		)
 		(stroke
 			(width 0)
@@ -23723,7 +23816,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 96.52) (xy 182.88 97.79)
+			(xy 171.45 85.09) (xy 171.45 86.36)
 		)
 		(stroke
 			(width 0)
@@ -23793,17 +23886,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 119.38) (xy 175.26 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "caeb9099-adae-47e1-a398-6c7dbdd6edb1")
-	)
-	(wire
-		(pts
-			(xy 182.88 121.92) (xy 212.09 121.92)
+			(xy 172.72 111.76) (xy 191.77 111.76)
 		)
 		(stroke
 			(width 0)
@@ -23923,16 +24006,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 113.03) (xy 182.88 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce6a05d6-0f4f-4597-8380-9a6473c7adb3")
-	)
-	(wire
-		(pts
 			(xy 610.87 535.94) (xy 610.87 518.16)
 		)
 		(stroke
@@ -23993,16 +24066,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 80.01) (xy 182.88 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfda834b-f73b-49d1-b749-9bda30dab98b")
-	)
-	(wire
-		(pts
 			(xy 160.02 548.64) (xy 160.02 547.37)
 		)
 		(stroke
@@ -24023,7 +24086,7 @@
 	)
 	(polyline
 		(pts
-			(xy 723.9 147.32) (xy 892.81 147.32)
+			(xy 723.9 147.32) (xy 911.86 147.32)
 		)
 		(stroke
 			(width 0)
@@ -24063,7 +24126,7 @@
 	)
 	(wire
 		(pts
-			(xy 855.98 124.46) (xy 855.98 128.27)
+			(xy 854.71 124.46) (xy 854.71 128.27)
 		)
 		(stroke
 			(width 0)
@@ -24123,7 +24186,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 195.58) (xy 212.09 195.58)
+			(xy 171.45 194.31) (xy 190.5 194.31)
 		)
 		(stroke
 			(width 0)
@@ -24383,7 +24446,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 176.53) (xy 212.09 176.53)
+			(xy 171.45 175.26) (xy 190.5 175.26)
 		)
 		(stroke
 			(width 0)
@@ -24410,6 +24473,16 @@
 			(type default)
 		)
 		(uuid "d9123b46-be80-4161-8d4b-ec0149b41c2e")
+	)
+	(wire
+		(pts
+			(xy 190.5 175.26) (xy 190.5 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d912cb4e-a015-4410-b076-10f17cab4eff")
 	)
 	(wire
 		(pts
@@ -24683,7 +24756,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 132.08) (xy 175.26 132.08)
+			(xy 160.02 121.92) (xy 163.83 121.92)
 		)
 		(stroke
 			(width 0)
@@ -24823,6 +24896,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 66.04) (xy 190.5 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e31d828b-238b-46c5-ae0b-8f8e0edd38d3")
+	)
+	(wire
+		(pts
 			(xy 655.32 510.54) (xy 657.86 510.54)
 		)
 		(stroke
@@ -24890,6 +24973,16 @@
 			(type default)
 		)
 		(uuid "e4595927-6105-4813-8390-b6c81c26faf9")
+	)
+	(wire
+		(pts
+			(xy 190.5 175.26) (xy 200.66 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4614fd6-423e-41a4-ad68-05a2f9a5cdf9")
 	)
 	(wire
 		(pts
@@ -25103,6 +25196,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 52.07) (xy 172.72 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9072e64-c56f-4af4-b845-c725d173e48d")
+	)
+	(wire
+		(pts
 			(xy 429.26 684.53) (xy 422.91 684.53)
 		)
 		(stroke
@@ -25120,6 +25223,16 @@
 			(type default)
 		)
 		(uuid "e96e5bb5-e0fb-47a1-b4f9-23632a45eda3")
+	)
+	(wire
+		(pts
+			(xy 190.5 147.32) (xy 190.5 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9a4fe5f-3966-4250-bcaa-1e2665a3f762")
 	)
 	(wire
 		(pts
@@ -25483,7 +25596,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 129.54) (xy 176.53 129.54)
+			(xy 160.02 119.38) (xy 165.1 119.38)
 		)
 		(stroke
 			(width 0)
@@ -25633,6 +25746,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 52.07) (xy 190.5 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f68cc967-5f28-4de2-8503-1111fbe1088b")
+	)
+	(wire
+		(pts
 			(xy 869.95 251.46) (xy 878.84 251.46)
 		)
 		(stroke
@@ -25740,6 +25863,16 @@
 			(type default)
 		)
 		(uuid "f95e4305-791e-4c40-81e9-8987c7cfb709")
+	)
+	(wire
+		(pts
+			(xy 876.3 111.76) (xy 887.73 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f97c6d33-ba13-40c7-9ddb-3c24413cf2bb")
 	)
 	(wire
 		(pts
@@ -26232,7 +26365,7 @@
 		(uuid ef46b635-3685-4166-9929-4e2eba0d4bd0)
 	)
 	(rectangle
-		(start 139.7 64.77)
+		(start 139.7 31.75)
 		(end 220.98 219.71)
 		(stroke
 			(width 0)
@@ -27176,7 +27309,7 @@
 	)
 	(global_label "VinP1"
 		(shape input)
-		(at 212.09 71.12 0)
+		(at 201.93 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -27186,7 +27319,7 @@
 		)
 		(uuid "4ea014d4-06b1-4f05-a1aa-2b099fad6306")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.3971 71.12 0)
+			(at 210.2371 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27616,7 +27749,7 @@
 	)
 	(global_label "VinP3"
 		(shape input)
-		(at 212.09 139.7 0)
+		(at 201.93 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -27626,7 +27759,7 @@
 		)
 		(uuid "8ca27fff-2574-4b99-ad15-b3f56159c0ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.3971 139.7 0)
+			(at 210.2371 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27946,7 +28079,7 @@
 	)
 	(global_label "VinN3"
 		(shape input)
-		(at 212.09 157.48 0)
+		(at 200.66 153.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -27956,7 +28089,7 @@
 		)
 		(uuid "aad824c1-0b37-407a-9ab3-1eb797c72c36")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.4576 157.48 0)
+			(at 209.0276 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28166,7 +28299,7 @@
 	)
 	(global_label "VinN2"
 		(shape input)
-		(at 212.09 121.92 0)
+		(at 201.93 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -28176,7 +28309,7 @@
 		)
 		(uuid "c738cef8-8528-4109-b6b8-6022b5307971")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.4576 121.92 0)
+			(at 210.2976 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28188,7 +28321,7 @@
 	)
 	(global_label "VinP2"
 		(shape input)
-		(at 212.09 105.41 0)
+		(at 201.93 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -28198,7 +28331,7 @@
 		)
 		(uuid "c8d6729e-b7a6-4dba-af72-bf97b21bbad1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.3971 105.41 0)
+			(at 210.2371 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28298,7 +28431,7 @@
 	)
 	(global_label "VinN4"
 		(shape input)
-		(at 212.09 195.58 0)
+		(at 200.66 194.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -28308,7 +28441,7 @@
 		)
 		(uuid "d30765c1-8f39-473a-b9c6-c1a480bd6244")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.4576 195.58 0)
+			(at 209.0276 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28320,7 +28453,7 @@
 	)
 	(global_label "VinN1"
 		(shape input)
-		(at 212.09 87.63 0)
+		(at 200.66 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -28330,7 +28463,7 @@
 		)
 		(uuid "d4c45bf1-1080-4d05-8724-bd979e6be92f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.4576 87.63 0)
+			(at 209.0276 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28408,7 +28541,7 @@
 	)
 	(global_label "VinP4"
 		(shape input)
-		(at 212.09 176.53 0)
+		(at 200.66 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -28418,7 +28551,7 @@
 		)
 		(uuid "e5be2153-48ff-45e9-81f1-88fdc430439d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.3971 176.53 0)
+			(at 208.9671 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30137,6 +30270,197 @@
 		)
 	)
 	(symbol
+		(lib_id "SMBJ15CA:SMBJ15CA")
+		(at 171.45 201.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "101b0577-3f7a-4074-b5e1-b3567bc029ac")
+		(property "Reference" "D13"
+			(at 173.99 200.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ15CA"
+			(at 173.99 203.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMBJ15CA:DIOM4336X265N"
+			(at 171.45 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Taiwan Semiconductor Corporation"
+			(at 171.45 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.65 mm"
+			(at 171.45 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMB Taiwan Semiconductor"
+			(at 171.45 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 171.45 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SMBJ15CA/taiwan/view-part/?ref=eda"
+			(at 171.45 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 171.45 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "I2102"
+			(at 171.45 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SMBJ15CA/taiwan/view-part/?ref=snap"
+			(at 171.45 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SMBJ15CA"
+			(at 171.45 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            600W, 17.6V, 5%, Bidirectional, TVS\n                        \n"
+			(at 171.45 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 171.45 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Taiwan Semiconductor"
+			(at 171.45 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "522c596c-a232-4589-bfd7-78836d64649a")
+		)
+		(pin "1"
+			(uuid "ec153fc9-4247-4c11-b60b-486acf9749a5")
+		)
+		(instances
+			(project "ADC"
+				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 695.96 490.22 0)
 		(unit 1)
@@ -30472,7 +30796,7 @@
 	)
 	(symbol
 		(lib_id "SMBJ15CA:SMBJ15CA")
-		(at 52.07 95.25 0)
+		(at 172.72 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30481,23 +30805,25 @@
 		(fields_autoplaced yes)
 		(uuid "1790fb3f-48a0-4699-80e7-71116fd3f9ec")
 		(property "Reference" "D15"
-			(at 52.07 88.9 0)
+			(at 175.26 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "SMBJ15CA"
-			(at 52.07 91.44 0)
+			(at 175.26 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "SMBJ15CA:DIOM4336X265N"
-			(at 52.07 95.25 0)
+			(at 172.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30507,7 +30833,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 95.25 0)
+			(at 172.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30516,7 +30842,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.07 95.25 0)
+			(at 172.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30525,7 +30851,7 @@
 			)
 		)
 		(property "MF" "Taiwan Semiconductor Corporation"
-			(at 52.07 95.25 0)
+			(at 172.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30535,7 +30861,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "2.65 mm"
-			(at 52.07 95.25 0)
+			(at 172.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30545,7 +30871,7 @@
 			)
 		)
 		(property "Package" "SMB Taiwan Semiconductor"
-			(at 52.07 95.25 0)
+			(at 172.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30555,7 +30881,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 52.07 95.25 0)
+			(at 172.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30565,7 +30891,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SMBJ15CA/taiwan/view-part/?ref=eda"
-			(at 52.07 95.25 0)
+			(at 172.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30575,7 +30901,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7351B"
-			(at 52.07 95.25 0)
+			(at 172.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30585,7 +30911,7 @@
 			)
 		)
 		(property "PARTREV" "I2102"
-			(at 52.07 95.25 0)
+			(at 172.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30595,7 +30921,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SMBJ15CA/taiwan/view-part/?ref=snap"
-			(at 52.07 95.25 0)
+			(at 172.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30605,7 +30931,7 @@
 			)
 		)
 		(property "MP" "SMBJ15CA"
-			(at 52.07 95.25 0)
+			(at 172.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30615,7 +30941,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            600W, 17.6V, 5%, Bidirectional, TVS\n                        \n"
-			(at 52.07 95.25 0)
+			(at 172.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30625,7 +30951,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 52.07 95.25 0)
+			(at 172.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30635,7 +30961,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Taiwan Semiconductor"
-			(at 52.07 95.25 0)
+			(at 172.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30661,7 +30987,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 855.98 128.27 0)
+		(at 854.71 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30670,7 +30996,7 @@
 		(fields_autoplaced yes)
 		(uuid "17bcc300-9659-4e0a-8b7c-3d01e504e2ef")
 		(property "Reference" "#PWR032"
-			(at 855.98 134.62 0)
+			(at 854.71 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30679,7 +31005,7 @@
 			)
 		)
 		(property "Value" "GND_ISO"
-			(at 855.98 133.35 0)
+			(at 854.71 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30687,7 +31013,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 855.98 128.27 0)
+			(at 854.71 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30696,7 +31022,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 855.98 128.27 0)
+			(at 854.71 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30705,7 +31031,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 855.98 128.27 0)
+			(at 854.71 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30727,7 +31053,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 114.3 0)
+		(at 173.99 105.41 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -30736,7 +31062,7 @@
 		(dnp no)
 		(uuid "17eb4e78-a823-46f9-96a2-86590097e438")
 		(property "Reference" "#PWR0133"
-			(at 182.88 120.65 0)
+			(at 173.99 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30745,7 +31071,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.658 118.618 0)
+			(at 175.768 109.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30754,7 +31080,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 114.3 0)
+			(at 173.99 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30763,7 +31089,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 114.3 0)
+			(at 173.99 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30772,7 +31098,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 114.3 0)
+			(at 173.99 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31241,75 +31567,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS_Filled")
-		(at 182.88 163.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1b274f24-1234-4b5d-9f61-289aae74c953")
-		(property "Reference" "D12"
-			(at 185.42 162.5599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_TVS_Filled"
-			(at 185.42 165.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
-			(at 182.88 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8191e2ae-48c1-4ab5-ab59-caa200c717a9")
-		)
-		(pin "2"
-			(uuid "c201692e-ad93-4bfd-b11d-a87231cd2aee")
-		)
-		(instances
-			(project "ADC"
-				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 613.41 631.19 0)
 		(unit 1)
@@ -31370,6 +31627,197 @@
 			(project "ADC"
 				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
 					(reference "#PWR0167")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SMBJ15CA:SMBJ15CA")
+		(at 190.5 142.24 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ea33f22-47f9-4a05-9cdd-483b5fde47a4")
+		(property "Reference" "D21"
+			(at 193.04 140.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ15CA"
+			(at 193.04 143.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMBJ15CA:DIOM4336X265N"
+			(at 190.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Taiwan Semiconductor Corporation"
+			(at 190.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.65 mm"
+			(at 190.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMB Taiwan Semiconductor"
+			(at 190.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 190.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SMBJ15CA/taiwan/view-part/?ref=eda"
+			(at 190.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 190.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "I2102"
+			(at 190.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SMBJ15CA/taiwan/view-part/?ref=snap"
+			(at 190.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SMBJ15CA"
+			(at 190.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            600W, 17.6V, 5%, Bidirectional, TVS\n                        \n"
+			(at 190.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 190.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Taiwan Semiconductor"
+			(at 190.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4703440f-3a50-4433-bb29-02a4c6743e3a")
+		)
+		(pin "1"
+			(uuid "a39317dd-dc84-4c08-8595-9a9c0b4b5c7d")
+		)
+		(instances
+			(project "ADC"
+				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -31576,75 +32024,6 @@
 			(project "ADC"
 				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
 					(reference "R82")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS_Filled")
-		(at 182.88 144.78 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2275b0d9-f698-4e78-922e-1cc5c9570d99")
-		(property "Reference" "D11"
-			(at 185.42 143.5099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_TVS_Filled"
-			(at 185.42 146.0499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
-			(at 182.88 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5b53fe79-fe59-41e6-8008-015a8c58c8d8")
-		)
-		(pin "2"
-			(uuid "541e3617-606e-4ec8-b8a9-ac650c316a0f")
-		)
-		(instances
-			(project "ADC"
-				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
-					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -32398,7 +32777,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 339.09 100.33 0)
+		(at 339.09 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32406,7 +32785,7 @@
 		(dnp no)
 		(uuid "2933b8da-dc67-4ac6-9c04-971d73e9e93f")
 		(property "Reference" "#PWR054"
-			(at 339.09 106.68 0)
+			(at 339.09 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32415,7 +32794,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 337.058 104.394 0)
+			(at 337.058 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32424,7 +32803,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 339.09 100.33 0)
+			(at 339.09 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32433,7 +32812,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 339.09 100.33 0)
+			(at 339.09 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32442,7 +32821,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 339.09 100.33 0)
+			(at 339.09 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32710,6 +33089,197 @@
 			(project "ADC"
 				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
 					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SMBJ15CA:SMBJ15CA")
+		(at 171.45 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b21d217-b35e-448b-a3e6-9f325a4657f2")
+		(property "Reference" "D7"
+			(at 173.99 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ15CA"
+			(at 173.99 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMBJ15CA:DIOM4336X265N"
+			(at 171.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Taiwan Semiconductor Corporation"
+			(at 171.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.65 mm"
+			(at 171.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMB Taiwan Semiconductor"
+			(at 171.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 171.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SMBJ15CA/taiwan/view-part/?ref=eda"
+			(at 171.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 171.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "I2102"
+			(at 171.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SMBJ15CA/taiwan/view-part/?ref=snap"
+			(at 171.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SMBJ15CA"
+			(at 171.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            600W, 17.6V, 5%, Bidirectional, TVS\n                        \n"
+			(at 171.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 171.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Taiwan Semiconductor"
+			(at 171.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0314029e-b7ec-4446-b386-6ffb75e2247c")
+		)
+		(pin "1"
+			(uuid "73b04a48-523b-4d89-905f-460e5217a8e3")
+		)
+		(instances
+			(project "ADC"
+				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -33366,7 +33936,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 187.96 0)
+		(at 171.45 187.96 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -33375,7 +33945,7 @@
 		(dnp no)
 		(uuid "2e790c2b-66b7-4720-9b7d-1968deb12d05")
 		(property "Reference" "#PWR0137"
-			(at 182.88 194.31 0)
+			(at 171.45 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33384,7 +33954,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.658 192.278 0)
+			(at 173.228 192.278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33393,7 +33963,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 187.96 0)
+			(at 171.45 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33402,7 +33972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 187.96 0)
+			(at 171.45 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33411,7 +33981,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 187.96 0)
+			(at 171.45 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33492,195 +34062,6 @@
 			(project "ADC"
 				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
 					(reference "#PWR095")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SMDJ24CAH:SMDJ24CAH")
-		(at 52.07 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2fa0f84c-a5eb-445f-a8dc-a6a6d88f0a7b")
-		(property "Reference" "D16"
-			(at 52.07 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SMDJ24CAH"
-			(at 52.07 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SMDJ24CAH:DIOM6859X262N"
-			(at 52.07 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Taiwan Semiconductor"
-			(at 52.07 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2.62 mm"
-			(at 52.07 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SMC Taiwan Semiconductor"
-			(at 52.07 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 52.07 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SMDJ24CAH/taiwan/view-part/?ref=eda"
-			(at 52.07 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 52.07 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "R2102"
-			(at 52.07 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SMDJ24CAH/taiwan/view-part/?ref=snap"
-			(at 52.07 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SMDJ24CAH"
-			(at 52.07 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            3000W, 28.1V, 5%, Bidirectional, TVS\n                        \n"
-			(at 52.07 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 52.07 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Taiwan Semiconductor"
-			(at 52.07 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f3623d42-3ae1-46f3-9009-f6e2e20fdf09")
-		)
-		(pin "1"
-			(uuid "8d255d9b-03f8-4323-aca8-9266e335852b")
-		)
-		(instances
-			(project ""
-				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
-					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -34145,75 +34526,6 @@
 			(project "ADC"
 				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS_Filled")
-		(at 182.88 76.2 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "314dab92-5b55-4d69-8117-ce8927d42ebb")
-		(property "Reference" "D7"
-			(at 185.42 74.9299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_TVS_Filled"
-			(at 185.42 77.4699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
-			(at 182.88 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "27c3cf87-b3cb-4363-9832-45899bb0d513")
-		)
-		(pin "2"
-			(uuid "8c0c7589-eacb-4ab2-a780-6be6ee3955af")
-		)
-		(instances
-			(project "ADC"
-				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
-					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -38177,6 +38489,197 @@
 		)
 	)
 	(symbol
+		(lib_id "SMDJ24CAH:SMDJ24CAH")
+		(at 339.09 90.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5153538d-749e-4e22-a5ba-08d5c218717d")
+		(property "Reference" "D17"
+			(at 341.63 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMDJ24CAH"
+			(at 341.63 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMDJ24CAH:DIOM6859X262N"
+			(at 339.09 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 339.09 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 339.09 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Taiwan Semiconductor"
+			(at 339.09 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.62 mm"
+			(at 339.09 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMC Taiwan Semiconductor"
+			(at 339.09 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 339.09 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SMDJ24CAH/taiwan/view-part/?ref=eda"
+			(at 339.09 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 339.09 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "R2102"
+			(at 339.09 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SMDJ24CAH/taiwan/view-part/?ref=snap"
+			(at 339.09 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SMDJ24CAH"
+			(at 339.09 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            3000W, 28.1V, 5%, Bidirectional, TVS\n                        \n"
+			(at 339.09 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 339.09 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Taiwan Semiconductor"
+			(at 339.09 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0189aa19-09b0-4e3d-b426-a3897a4c3a0a")
+		)
+		(pin "1"
+			(uuid "bdd20d4b-cd39-4da5-a1d0-4e744ecdb929")
+		)
+		(instances
+			(project "ADC"
+				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CD4514BM:CD4514BM")
 		(at 96.52 513.08 0)
 		(unit 1)
@@ -38459,7 +38962,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ZPDxx")
-		(at 855.98 120.65 270)
+		(at 854.71 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -38468,7 +38971,7 @@
 		(fields_autoplaced yes)
 		(uuid "528d2e65-54ff-4c5b-9295-b4fe880de30b")
 		(property "Reference" "D5"
-			(at 858.52 119.3799 90)
+			(at 857.25 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38477,7 +38980,7 @@
 			)
 		)
 		(property "Value" "ZPDxx"
-			(at 858.52 121.9199 90)
+			(at 857.25 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38486,7 +38989,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
-			(at 851.535 120.65 0)
+			(at 850.265 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38495,7 +38998,7 @@
 			)
 		)
 		(property "Datasheet" "http://diotec.com/tl_files/diotec/files/pdf/datasheets/zpd1"
-			(at 855.98 120.65 0)
+			(at 854.71 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38504,7 +39007,7 @@
 			)
 		)
 		(property "Description" "500mW Zener Diode, DO-35"
-			(at 855.98 120.65 0)
+			(at 854.71 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38799,34 +39302,45 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS_Filled")
-		(at 339.09 88.9 90)
+		(lib_id "SMBJ15CA:SMBJ15CA")
+		(at 190.5 60.96 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5599cc45-d9aa-4355-bf8e-0a81a8ea9cfe")
-		(property "Reference" "D6"
-			(at 341.63 87.6299 90)
+		(fields_autoplaced yes)
+		(uuid "54eb744e-8c50-415f-a708-710c9b138ace")
+		(property "Reference" "D14"
+			(at 193.04 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D_TVS_Filled"
-			(at 341.63 90.1699 90)
+		(property "Value" "SMBJ15CA"
+			(at 193.04 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 339.09 88.9 0)
+		(property "Footprint" "SMBJ15CA:DIOM4336X265N"
+			(at 190.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38834,8 +39348,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 339.09 88.9 0)
+		(property "Description" ""
+			(at 190.5 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38843,25 +39357,136 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
-			(at 339.09 88.9 0)
+		(property "MF" "Taiwan Semiconductor Corporation"
+			(at 190.5 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "02aa7811-2adf-45f7-97f5-5dcca2daf108")
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.65 mm"
+			(at 190.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMB Taiwan Semiconductor"
+			(at 190.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 190.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SMBJ15CA/taiwan/view-part/?ref=eda"
+			(at 190.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 190.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "I2102"
+			(at 190.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SMBJ15CA/taiwan/view-part/?ref=snap"
+			(at 190.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SMBJ15CA"
+			(at 190.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            600W, 17.6V, 5%, Bidirectional, TVS\n                        \n"
+			(at 190.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 190.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Taiwan Semiconductor"
+			(at 190.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "2b0356d3-8222-414f-9744-6ab7f0f495ff")
+			(uuid "2b9bd8c7-cc93-4da4-95f8-47bb6ab1e370")
+		)
+		(pin "1"
+			(uuid "c12e7c07-0d0b-4d32-a109-2d706d0ff8ce")
 		)
 		(instances
 			(project "ADC"
 				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
-					(reference "D6")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -39095,7 +39720,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 139.7 0)
+		(at 160.02 130.81 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -39104,7 +39729,7 @@
 		(dnp no)
 		(uuid "56b71226-1583-4894-8118-c7863dd0f147")
 		(property "Reference" "#PWR058"
-			(at 172.72 146.05 0)
+			(at 160.02 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39113,7 +39738,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 174.498 144.018 0)
+			(at 161.798 135.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39122,7 +39747,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 139.7 0)
+			(at 160.02 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39131,7 +39756,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 139.7 0)
+			(at 160.02 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39140,7 +39765,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 139.7 0)
+			(at 160.02 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40682,6 +41307,197 @@
 		)
 	)
 	(symbol
+		(lib_id "SMBJ15CA:SMBJ15CA")
+		(at 190.5 184.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "608d411e-d27f-4bb4-a3a6-62a3253a7421")
+		(property "Reference" "D23"
+			(at 193.04 182.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ15CA"
+			(at 193.04 185.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMBJ15CA:DIOM4336X265N"
+			(at 190.5 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Taiwan Semiconductor Corporation"
+			(at 190.5 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.65 mm"
+			(at 190.5 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMB Taiwan Semiconductor"
+			(at 190.5 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 190.5 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SMBJ15CA/taiwan/view-part/?ref=eda"
+			(at 190.5 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 190.5 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "I2102"
+			(at 190.5 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SMBJ15CA/taiwan/view-part/?ref=snap"
+			(at 190.5 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SMBJ15CA"
+			(at 190.5 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            600W, 17.6V, 5%, Bidirectional, TVS\n                        \n"
+			(at 190.5 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 190.5 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Taiwan Semiconductor"
+			(at 190.5 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "292303dd-270f-4a4f-986e-8d55fe5fa294")
+		)
+		(pin "1"
+			(uuid "bb39aae8-da32-43a7-b962-06dd3ac7c381")
+		)
+		(instances
+			(project "ADC"
+				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 631.19 429.26 0)
 		(unit 1)
@@ -40948,7 +41764,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 97.79 0)
+		(at 171.45 86.36 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -40957,7 +41773,7 @@
 		(dnp no)
 		(uuid "62947747-c625-4c1e-b154-2c15dd753c4d")
 		(property "Reference" "#PWR0132"
-			(at 182.88 104.14 0)
+			(at 171.45 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40966,7 +41782,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.658 102.108 0)
+			(at 173.228 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40975,7 +41791,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 97.79 0)
+			(at 171.45 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40984,7 +41800,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 97.79 0)
+			(at 171.45 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40993,7 +41809,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 97.79 0)
+			(at 171.45 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41388,75 +42204,6 @@
 			(project "ADC"
 				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
 					(reference "#PWR0118")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS_Filled")
-		(at 182.88 127 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "66353e7a-f123-4992-8c9f-749db3e6b2a8")
-		(property "Reference" "D10"
-			(at 185.42 125.7299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_TVS_Filled"
-			(at 185.42 128.2699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
-			(at 182.88 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "defe1dc0-1405-45b4-9259-ff970f64ce5b")
-		)
-		(pin "2"
-			(uuid "c5e6dd76-8ab6-4105-afc2-6ef253773d27")
-		)
-		(instances
-			(project "ADC"
-				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
-					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -43316,6 +44063,194 @@
 		)
 	)
 	(symbol
+		(lib_id "SMDJ24CAH:SMDJ24CAH")
+		(at 866.14 121.92 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79a3b215-836c-422f-8676-28b54475b2b3")
+		(property "Reference" "D16"
+			(at 872.49 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMDJ24CAH"
+			(at 869.95 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SMDJ24CAH:DIOM6859X262N"
+			(at 866.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 866.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 866.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Taiwan Semiconductor"
+			(at 866.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.62 mm"
+			(at 866.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMC Taiwan Semiconductor"
+			(at 866.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 866.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SMDJ24CAH/taiwan/view-part/?ref=eda"
+			(at 866.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 866.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "R2102"
+			(at 866.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SMDJ24CAH/taiwan/view-part/?ref=snap"
+			(at 866.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SMDJ24CAH"
+			(at 866.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            3000W, 28.1V, 5%, Bidirectional, TVS\n                        \n"
+			(at 866.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 866.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Taiwan Semiconductor"
+			(at 866.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2bb9c8cb-fa87-4034-9807-752dfa6d118e")
+		)
+		(pin "1"
+			(uuid "9e0ebcf1-b90e-48c9-b785-ab39ad39b155")
+		)
+		(instances
+			(project "ADC"
+				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 806.45 110.49 0)
 		(unit 1)
@@ -43522,7 +44457,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x09")
-		(at 167.64 124.46 0)
+		(at 154.94 114.3 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -43532,7 +44467,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c884877-adfb-43cb-ad2d-fa3ba12e5e18")
 		(property "Reference" "J3"
-			(at 165.1 123.1899 0)
+			(at 152.4 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43541,7 +44476,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x09"
-			(at 165.1 125.7299 0)
+			(at 152.4 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43550,7 +44485,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 124.46 0)
+			(at 154.94 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43559,7 +44494,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 124.46 0)
+			(at 154.94 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43568,7 +44503,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 167.64 124.46 0)
+			(at 154.94 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44691,6 +45626,194 @@
 		)
 	)
 	(symbol
+		(lib_id "SMDJ24CAH:SMDJ24CAH")
+		(at 876.3 121.92 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85a04595-292e-4cbb-bd7a-496eade8b4bb")
+		(property "Reference" "D6"
+			(at 882.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMDJ24CAH"
+			(at 880.11 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SMDJ24CAH:DIOM6859X262N"
+			(at 876.3 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 876.3 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 876.3 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Taiwan Semiconductor"
+			(at 876.3 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.62 mm"
+			(at 876.3 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMC Taiwan Semiconductor"
+			(at 876.3 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 876.3 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SMDJ24CAH/taiwan/view-part/?ref=eda"
+			(at 876.3 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 876.3 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "R2102"
+			(at 876.3 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SMDJ24CAH/taiwan/view-part/?ref=snap"
+			(at 876.3 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SMDJ24CAH"
+			(at 876.3 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            3000W, 28.1V, 5%, Bidirectional, TVS\n                        \n"
+			(at 876.3 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 876.3 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Taiwan Semiconductor"
+			(at 876.3 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "be701e08-c3fe-46a1-9a4c-852abea75817")
+		)
+		(pin "1"
+			(uuid "4e656c78-e8d3-4ecb-8f83-7f2a4e3db66a")
+		)
+		(instances
+			(project "ADC"
+				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 449.58 133.35 0)
 		(unit 1)
@@ -45011,6 +46134,72 @@
 			(project ""
 				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
 					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 876.3 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "881f0533-1552-4419-b0d6-4e95ddf27ee6")
+		(property "Reference" "#PWR0192"
+			(at 876.3 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_ISO"
+			(at 876.3 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 876.3 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 876.3 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 876.3 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41b94b84-8369-423d-8498-567dc5263b5f")
+		)
+		(instances
+			(project "ADC"
+				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
+					(reference "#PWR0192")
 					(unit 1)
 				)
 			)
@@ -45932,6 +47121,197 @@
 			(project "ADC"
 				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
 					(reference "U29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SMBJ15CA:SMBJ15CA")
+		(at 172.72 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "913f0dac-5410-4ed4-9b00-d7ccbdd7c696")
+		(property "Reference" "D9"
+			(at 175.26 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ15CA"
+			(at 175.26 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMBJ15CA:DIOM4336X265N"
+			(at 172.72 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Taiwan Semiconductor Corporation"
+			(at 172.72 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.65 mm"
+			(at 172.72 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMB Taiwan Semiconductor"
+			(at 172.72 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 172.72 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SMBJ15CA/taiwan/view-part/?ref=eda"
+			(at 172.72 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 172.72 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "I2102"
+			(at 172.72 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SMBJ15CA/taiwan/view-part/?ref=snap"
+			(at 172.72 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SMBJ15CA"
+			(at 172.72 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            600W, 17.6V, 5%, Bidirectional, TVS\n                        \n"
+			(at 172.72 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 172.72 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Taiwan Semiconductor"
+			(at 172.72 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8846e908-325f-478a-8232-1349e63969fe")
+		)
+		(pin "1"
+			(uuid "e4557bc3-126d-4b0b-96db-670e84609d15")
+		)
+		(instances
+			(project "ADC"
+				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -46997,75 +48377,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS_Filled")
-		(at 182.88 109.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9befaeb6-a68d-4b35-8a8a-c98a36b2306e")
-		(property "Reference" "D9"
-			(at 185.42 107.9499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_TVS_Filled"
-			(at 185.42 110.4899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
-			(at 182.88 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "026e9ac9-3277-4e1b-bf65-0be43ed4a95d")
-		)
-		(pin "2"
-			(uuid "371e6d58-4e25-437c-afed-e93b15faa266")
-		)
-		(instances
-			(project "ADC"
-				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 613.41 635 180)
 		(unit 1)
@@ -47848,7 +49159,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 149.86 0)
+		(at 172.72 146.05 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -47857,7 +49168,7 @@
 		(dnp no)
 		(uuid "a10cb750-775a-4be3-8408-f7d07e21e7aa")
 		(property "Reference" "#PWR0135"
-			(at 182.88 156.21 0)
+			(at 172.72 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47866,7 +49177,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.658 154.178 0)
+			(at 174.498 150.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47875,7 +49186,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 149.86 0)
+			(at 172.72 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47884,7 +49195,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 149.86 0)
+			(at 172.72 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47893,7 +49204,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 149.86 0)
+			(at 172.72 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48731,7 +50042,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 875.03 111.76 180)
+		(at 892.81 111.76 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -48740,7 +50051,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6955b44-3cfe-43d4-9be4-11bd459c3d61")
 		(property "Reference" "J1"
-			(at 876.3 110.4899 0)
+			(at 894.08 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48749,7 +50060,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 876.3 113.0299 0)
+			(at 894.08 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48758,7 +50069,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 875.03 111.76 0)
+			(at 892.81 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48767,7 +50078,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 875.03 111.76 0)
+			(at 892.81 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48776,7 +50087,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 875.03 111.76 0)
+			(at 892.81 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49281,7 +50592,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 868.68 128.27 0)
+		(at 886.46 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -49290,7 +50601,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa7a81fe-e8af-4981-9481-614cfce9e73b")
 		(property "Reference" "#PWR037"
-			(at 868.68 134.62 0)
+			(at 886.46 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49299,7 +50610,7 @@
 			)
 		)
 		(property "Value" "GND_ISO"
-			(at 868.68 133.35 0)
+			(at 886.46 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49307,7 +50618,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 868.68 128.27 0)
+			(at 886.46 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49316,7 +50627,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 868.68 128.27 0)
+			(at 886.46 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49325,7 +50636,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 868.68 128.27 0)
+			(at 886.46 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49750,6 +51061,197 @@
 		)
 	)
 	(symbol
+		(lib_id "SMBJ15CA:SMBJ15CA")
+		(at 191.77 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b150d5d8-c2a7-4282-bbc0-0728db88e776")
+		(property "Reference" "D19"
+			(at 194.31 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ15CA"
+			(at 194.31 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMBJ15CA:DIOM4336X265N"
+			(at 191.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Taiwan Semiconductor Corporation"
+			(at 191.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.65 mm"
+			(at 191.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMB Taiwan Semiconductor"
+			(at 191.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 191.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SMBJ15CA/taiwan/view-part/?ref=eda"
+			(at 191.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 191.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "I2102"
+			(at 191.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SMBJ15CA/taiwan/view-part/?ref=snap"
+			(at 191.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SMBJ15CA"
+			(at 191.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            600W, 17.6V, 5%, Bidirectional, TVS\n                        \n"
+			(at 191.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 191.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Taiwan Semiconductor"
+			(at 191.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8a4a4d93-6cfa-46e5-899f-9e0fd3b6a9d9")
+		)
+		(pin "1"
+			(uuid "08706405-434b-4181-beab-6f630a6e6943")
+		)
+		(instances
+			(project "ADC"
+				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 786.13 397.51 0)
 		(unit 1)
@@ -49814,6 +51316,72 @@
 			(project "ADC"
 				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
 					(reference "R77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 866.14 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b290774b-7c50-4bb4-9291-988fdecf5ddc")
+		(property "Reference" "#PWR0191"
+			(at 866.14 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_ISO"
+			(at 866.14 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 866.14 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 866.14 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 866.14 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3218284-d66a-4cf7-9b28-74f77790255a")
+		)
+		(instances
+			(project "ADC"
+				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
+					(reference "#PWR0191")
 					(unit 1)
 				)
 			)
@@ -51160,6 +52728,197 @@
 		)
 	)
 	(symbol
+		(lib_id "SMBJ15CA:SMBJ15CA")
+		(at 173.99 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9e9208f-a69e-454a-9217-4a57b91ce16e")
+		(property "Reference" "D8"
+			(at 176.53 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ15CA"
+			(at 176.53 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMBJ15CA:DIOM4336X265N"
+			(at 173.99 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Taiwan Semiconductor Corporation"
+			(at 173.99 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.65 mm"
+			(at 173.99 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMB Taiwan Semiconductor"
+			(at 173.99 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 173.99 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SMBJ15CA/taiwan/view-part/?ref=eda"
+			(at 173.99 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 173.99 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "I2102"
+			(at 173.99 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SMBJ15CA/taiwan/view-part/?ref=snap"
+			(at 173.99 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SMBJ15CA"
+			(at 173.99 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            600W, 17.6V, 5%, Bidirectional, TVS\n                        \n"
+			(at 173.99 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 173.99 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Taiwan Semiconductor"
+			(at 173.99 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bfc135f5-e2e2-48c2-9e78-05a6f73c75ec")
+		)
+		(pin "1"
+			(uuid "c1c581bc-0d00-43f7-b48b-ad9005a629d8")
+		)
+		(instances
+			(project "ADC"
+				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 266.7 307.34 180)
 		(unit 1)
@@ -51365,7 +53124,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 207.01 0)
+		(at 171.45 208.28 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -51374,7 +53133,7 @@
 		(dnp no)
 		(uuid "bcd7c94c-6fcf-4934-b7ca-61228d9982b7")
 		(property "Reference" "#PWR0138"
-			(at 182.88 213.36 0)
+			(at 171.45 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51383,7 +53142,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.658 211.328 0)
+			(at 173.228 212.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51392,7 +53151,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 207.01 0)
+			(at 171.45 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51401,7 +53160,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 207.01 0)
+			(at 171.45 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51410,7 +53169,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 207.01 0)
+			(at 171.45 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51955,6 +53714,197 @@
 			(project "ADC"
 				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
 					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SMBJ15CA:SMBJ15CA")
+		(at 171.45 181.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1f8dc78-e4dc-4919-9ec7-70c84d49263a")
+		(property "Reference" "D12"
+			(at 173.99 180.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ15CA"
+			(at 173.99 182.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMBJ15CA:DIOM4336X265N"
+			(at 171.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Taiwan Semiconductor Corporation"
+			(at 171.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.65 mm"
+			(at 171.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMB Taiwan Semiconductor"
+			(at 171.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 171.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SMBJ15CA/taiwan/view-part/?ref=eda"
+			(at 171.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 171.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "I2102"
+			(at 171.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SMBJ15CA/taiwan/view-part/?ref=snap"
+			(at 171.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SMBJ15CA"
+			(at 171.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            600W, 17.6V, 5%, Bidirectional, TVS\n                        \n"
+			(at 171.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 171.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Taiwan Semiconductor"
+			(at 171.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "03dd38af-b515-42b7-9dbc-0400d72435b9")
+		)
+		(pin "1"
+			(uuid "a0750638-2cd6-4129-b387-86302d9c215c")
+		)
+		(instances
+			(project "ADC"
+				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -54395,7 +56345,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 132.08 0)
+		(at 172.72 124.46 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -54404,7 +56354,7 @@
 		(dnp no)
 		(uuid "d213c177-454d-4820-b54c-91f1cf249663")
 		(property "Reference" "#PWR0134"
-			(at 182.88 138.43 0)
+			(at 172.72 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54413,7 +56363,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.658 136.398 0)
+			(at 174.498 128.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54422,7 +56372,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 132.08 0)
+			(at 172.72 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54431,7 +56381,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 132.08 0)
+			(at 172.72 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54440,7 +56390,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 132.08 0)
+			(at 172.72 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56922,34 +58872,45 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS_Filled")
-		(at 182.88 182.88 90)
+		(lib_id "SMBJ15CA:SMBJ15CA")
+		(at 172.72 139.7 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ece7538c-0a2c-4d8d-a793-75eca4fd41c1")
-		(property "Reference" "D13"
-			(at 185.42 181.6099 90)
+		(fields_autoplaced yes)
+		(uuid "ead4b48a-496b-4ee1-90e6-42eb7f22f29d")
+		(property "Reference" "D10"
+			(at 175.26 138.4299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D_TVS_Filled"
-			(at 185.42 184.1499 90)
+		(property "Value" "SMBJ15CA"
+			(at 175.26 140.9699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 182.88 182.88 0)
+		(property "Footprint" "SMBJ15CA:DIOM4336X265N"
+			(at 172.72 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56957,8 +58918,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 182.88 182.88 0)
+		(property "Description" ""
+			(at 172.72 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56966,25 +58927,136 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
-			(at 182.88 182.88 0)
+		(property "MF" "Taiwan Semiconductor Corporation"
+			(at 172.72 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "c734e446-0fcd-4bed-98e5-ceaac4ebe1c4")
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.65 mm"
+			(at 172.72 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMB Taiwan Semiconductor"
+			(at 172.72 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 172.72 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SMBJ15CA/taiwan/view-part/?ref=eda"
+			(at 172.72 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 172.72 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "I2102"
+			(at 172.72 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SMBJ15CA/taiwan/view-part/?ref=snap"
+			(at 172.72 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SMBJ15CA"
+			(at 172.72 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            600W, 17.6V, 5%, Bidirectional, TVS\n                        \n"
+			(at 172.72 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 172.72 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Taiwan Semiconductor"
+			(at 172.72 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "9c3f9f4c-20a4-4e11-92d2-fb91e916ccdd")
+			(uuid "5ffc7f96-6e6a-4951-9c88-0f9e701ed17c")
+		)
+		(pin "1"
+			(uuid "8d175b89-13d0-4552-876c-bbe9d860bbb2")
 		)
 		(instances
 			(project "ADC"
 				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
-					(reference "D13")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -57599,7 +59671,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 168.91 0)
+		(at 171.45 167.64 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -57608,7 +59680,7 @@
 		(dnp no)
 		(uuid "f331a392-51fa-4b36-87c3-747cc8e80fbd")
 		(property "Reference" "#PWR0136"
-			(at 182.88 175.26 0)
+			(at 171.45 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57617,7 +59689,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.658 173.228 0)
+			(at 173.482 171.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57626,7 +59698,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 168.91 0)
+			(at 171.45 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57635,7 +59707,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 168.91 0)
+			(at 171.45 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57644,7 +59716,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 168.91 0)
+			(at 171.45 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57659,75 +59731,6 @@
 			(project "ADC"
 				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
 					(reference "#PWR0136")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS_Filled")
-		(at 182.88 92.71 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f3b8149a-2c27-4e63-bfb9-d199d2f948db")
-		(property "Reference" "D8"
-			(at 185.42 91.4399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_TVS_Filled"
-			(at 185.42 93.9799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
-			(at 182.88 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff103f9c-99bb-4f76-bc0e-a5e90e6e98cc")
-		)
-		(pin "2"
-			(uuid "df335aeb-4fcc-4778-9ae1-92ac794b94fe")
-		)
-		(instances
-			(project "ADC"
-				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
-					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -58268,34 +60271,45 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS_Filled")
-		(at 182.88 201.93 90)
+		(lib_id "SMBJ15CA:SMBJ15CA")
+		(at 171.45 161.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fb43cfe9-eabc-46d1-b7de-f9116b73bfe1")
-		(property "Reference" "D14"
-			(at 185.42 200.6599 90)
+		(fields_autoplaced yes)
+		(uuid "fb05d71c-7a5e-473f-8aa9-2dab4825962b")
+		(property "Reference" "D11"
+			(at 173.99 160.0199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D_TVS_Filled"
-			(at 185.42 203.1999 90)
+		(property "Value" "SMBJ15CA"
+			(at 173.99 162.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 182.88 201.93 0)
+		(property "Footprint" "SMBJ15CA:DIOM4336X265N"
+			(at 171.45 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58303,8 +60317,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 182.88 201.93 0)
+		(property "Description" ""
+			(at 171.45 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58312,25 +60326,136 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
-			(at 182.88 201.93 0)
+		(property "MF" "Taiwan Semiconductor Corporation"
+			(at 171.45 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "cb4c28a6-b283-4337-ad1d-ec7c89f952b6")
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.65 mm"
+			(at 171.45 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMB Taiwan Semiconductor"
+			(at 171.45 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 171.45 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SMBJ15CA/taiwan/view-part/?ref=eda"
+			(at 171.45 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 171.45 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "I2102"
+			(at 171.45 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SMBJ15CA/taiwan/view-part/?ref=snap"
+			(at 171.45 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SMBJ15CA"
+			(at 171.45 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            600W, 17.6V, 5%, Bidirectional, TVS\n                        \n"
+			(at 171.45 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 171.45 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Taiwan Semiconductor"
+			(at 171.45 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "0f9a5f9e-e08e-4874-9cbc-a674f54638c7")
+			(uuid "2dd24133-686b-4bf6-b8ac-9243d1f253df")
+		)
+		(pin "1"
+			(uuid "abfe0479-f0bd-4e81-8ce9-4905d5cb8e3c")
 		)
 		(instances
 			(project "ADC"
 				(path "/c7ceee6a-ba62-44b0-b5ba-f64f163625fc"
-					(reference "D14")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -58606,7 +60731,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 81.28 0)
+		(at 172.72 66.04 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -58615,7 +60740,7 @@
 		(dnp no)
 		(uuid "fe19d746-9c09-4771-9ca7-b0ed0cc45994")
 		(property "Reference" "#PWR0131"
-			(at 182.88 87.63 0)
+			(at 172.72 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58624,7 +60749,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.658 85.598 0)
+			(at 174.498 70.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58633,7 +60758,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 81.28 0)
+			(at 172.72 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58642,7 +60767,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 81.28 0)
+			(at 172.72 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58651,7 +60776,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 81.28 0)
+			(at 172.72 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
