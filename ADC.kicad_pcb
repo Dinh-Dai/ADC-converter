@@ -1032,7 +1032,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "35c9e8cb-0ca8-4339-8404-0b97d701c672")
 		)
-		(model "C:/Users/vodin/Downloads/CD4043BPWR/CD4043BPWR.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/CD4043BPWR/CD4043BPWR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2480,7 +2480,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "ca512440-2602-4c96-bd7e-ac7b8ef443fc")
 		)
-		(model "C:/Users/vodin/Downloads/OPA211ID/OPA211ID.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/OPA211ID/OPA211ID.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4107,7 +4107,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "d444586e-3caa-4207-a9e8-810e1b15c3ad")
 		)
-		(model "C:/Users/vodin/Downloads/SMDJ24CAH/SMDJ24CAH.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/SMDJ24CAH/SMDJ24CAH.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4499,7 +4499,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "a03e592e-86ae-4ac4-8837-41413c097dd8")
 		)
-		(model "C:/Users/vodin/Downloads/SMBJ15CA/SMBJ15CA.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/SMBJ15CA/SMBJ15CA.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6186,7 +6186,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "db023e54-cb8e-448e-9baf-6d06f7529856")
 		)
-		(model "C:/Users/vodin/Downloads/CD4072BM/CD4072BM.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/CD4072BM/CD4072BM.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8598,7 +8598,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "0ef2afc6-a2ff-42e7-9f63-51c33e6b9646")
 		)
-		(model "C:/Users/vodin/Downloads/ADG5412FBCPZ-RL7/ADG5412FBCPZ-RL7.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/ADG5412FBCPZ-RL7/ADG5412FBCPZ-RL7.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9416,7 +9416,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "41e4ddeb-25e0-4460-adcb-20973f634ad9")
 		)
-		(model "C:/Users/vodin/Downloads/SMBJ15CA/SMBJ15CA.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/SMBJ15CA/SMBJ15CA.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10854,7 +10854,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "5b21fa1c-f55c-45a0-9f7a-670373be82d0")
 		)
-		(model "C:/Users/vodin/Downloads/ADG5412FBCPZ-RL7/ADG5412FBCPZ-RL7.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/ADG5412FBCPZ-RL7/ADG5412FBCPZ-RL7.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11937,7 +11937,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "507ad035-3265-478d-adb0-9113ee95ebcd")
 		)
-		(model "C:/Users/vodin/Downloads/R12P212D/R12P212D.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/R12P212D/R12P212D.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14088,7 +14088,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "ce32a696-2625-43c9-aec1-65b9a82d2c40")
 		)
-		(model "C:/Users/vodin/Downloads/OPA211ID/OPA211ID.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/OPA211ID/OPA211ID.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14759,7 +14759,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "0ceb905c-445d-425f-8f91-ccaf2d596238")
 		)
-		(model "C:/Users/vodin/Downloads/TLV1704AIPWR/TLV1704AIPWR.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/TLV1704AIPWR/TLV1704AIPWR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16707,7 +16707,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "8a912f78-9b1a-44b0-9153-5e7aadfbb7a6")
 		)
-		(model "C:/Users/vodin/Downloads/SMBJ15CA/SMBJ15CA.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/SMBJ15CA/SMBJ15CA.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21114,7 +21114,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "cb0c1eae-ac66-4876-a1fb-83d1550af3df")
 		)
-		(model "C:/Users/vodin/Downloads/STM32F407VGT6/STM32F407VGT6.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/MCU-STM32F407VET6_LQFP100_/MCU-STM32F407VET6_LQFP100_.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22167,7 +22167,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "9774eeff-3d18-4c77-b642-9269ed35a6bb")
 		)
-		(model "C:/Users/vodin/Downloads/SMBJ15CA/SMBJ15CA.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/SMBJ15CA/SMBJ15CA.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22559,7 +22559,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "2ac97049-57f9-4659-97df-6d8cbf6e52f3")
 		)
-		(model "C:/Users/vodin/Downloads/SMBJ15CA/SMBJ15CA.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/SMBJ15CA/SMBJ15CA.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22942,7 +22942,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "defb00ce-8b6d-45c1-8afd-e499e39cd71d")
 		)
-		(model "C:/Users/vodin/Downloads/OPA211ID/OPA211ID.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/OPA211ID/OPA211ID.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24353,7 +24353,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "0db9bcdf-b78c-4065-b137-67c011ff2deb")
 		)
-		(model "C:/Users/vodin/Downloads/TLV1704AIPWR/TLV1704AIPWR.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/TLV1704AIPWR/TLV1704AIPWR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25106,7 +25106,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "b77cdf4c-1c09-469d-873e-247247f3593a")
 		)
-		(model "C:/Users/vodin/Downloads/SMBJ15CA/SMBJ15CA.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/SMBJ15CA/SMBJ15CA.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25498,7 +25498,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "101b031e-781e-4749-9f19-c7b8ae179975")
 		)
-		(model "C:/Users/vodin/Downloads/SMBJ15CA/SMBJ15CA.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/SMBJ15CA/SMBJ15CA.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26492,7 +26492,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "5423ffa5-4ad1-424e-8e02-1fd8bb270c56")
 		)
-		(model "C:/Users/vodin/Downloads/CD4514BM/CD4514BM.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/CD4514BM/CD4514BM.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27054,7 +27054,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "ea3cd8a4-393a-4695-9043-7032ac03e76f")
 		)
-		(model "C:/Users/vodin/Downloads/ADG5412FBCPZ-RL7/ADG5412FBCPZ-RL7.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/ADG5412FBCPZ-RL7/ADG5412FBCPZ-RL7.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -30500,7 +30500,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "aa063363-d03c-43a8-b0ed-fdfa5fd9e192")
 		)
-		(model "C:/Users/vodin/Downloads/SMDJ24CAH/SMDJ24CAH.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/SMDJ24CAH/SMDJ24CAH.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -32853,7 +32853,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "da78e38e-805a-42c6-a7dd-dc23a19bcf70")
 		)
-		(model "C:/Users/vodin/Downloads/ADG5412FBCPZ-RL7/ADG5412FBCPZ-RL7.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/ADG5412FBCPZ-RL7/ADG5412FBCPZ-RL7.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -33458,7 +33458,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "c8c35128-5eb0-4d76-91bb-09fbd7fa73a5")
 		)
-		(model "C:/Users/vodin/Downloads/SMBJ15CA/SMBJ15CA.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/SMBJ15CA/SMBJ15CA.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -34702,7 +34702,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "3aeab0ad-410a-4330-bfd4-dd616e768aec")
 		)
-		(model "C:/Users/vodin/Downloads/SMBJ15CA/SMBJ15CA.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/SMBJ15CA/SMBJ15CA.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -35477,7 +35477,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "872d78d2-13f1-4507-9f6b-0c579621aa66")
 		)
-		(model "C:/Users/vodin/Downloads/ADG5412FBCPZ-RL7/ADG5412FBCPZ-RL7.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/ADG5412FBCPZ-RL7/ADG5412FBCPZ-RL7.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -36891,7 +36891,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "de017212-2938-4281-9609-84ad5fa5f3a9")
 		)
-		(model "C:/Users/vodin/Downloads/DCP010505BP/DCP010505BP.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/DCP010505BP/DCP010505BP.step"
 			(offset
 				(xyz -4 7.8 0)
 			)
@@ -39490,7 +39490,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "2b364e38-c820-4b28-aa02-6e2cce98954f")
 		)
-		(model "C:/Users/vodin/Downloads/LM2596S-5.0/LM2596S-5.0.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/LM2596S-5.0/LM2596S-5.0.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -39873,7 +39873,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "14a7ca0b-0218-479c-bdba-c512c26f2252")
 		)
-		(model "C:/Users/vodin/Downloads/OPA211ID/OPA211ID.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/OPA211ID/OPA211ID.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -40904,7 +40904,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "87d63933-07b7-4e28-989c-12be01f41905")
 		)
-		(model "C:/Users/vodin/Downloads/SMBJ15CA/SMBJ15CA.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/SMBJ15CA/SMBJ15CA.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -42991,7 +42991,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "e2efc841-7b46-4706-a56c-938bf9621987")
 		)
-		(model "C:/Users/vodin/Downloads/OPA211ID/OPA211ID.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/OPA211ID/OPA211ID.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -43383,7 +43383,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "d087fe0e-98d7-4533-9b4b-2585b9ad0fb3")
 		)
-		(model "C:/Users/vodin/Downloads/SMDJ24CAH/SMDJ24CAH.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/SMDJ24CAH/SMDJ24CAH.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -44834,7 +44834,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "364beef2-2897-41f7-9cc4-8ae6065efec7")
 		)
-		(model "C:/Users/vodin/Downloads/ADS1256IDBR/ADS1256IDBR.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/ADS1256IDBR/ADS1256IDBR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -45047,7 +45047,7 @@
 			(pintype "passive")
 			(uuid "33d1208a-7590-4865-9e48-66fba5e56526")
 		)
-		(model "C:/Users/vodin/Downloads/1812L300_24SLER/1812L300_24SLER.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/1812L300_24SLER/1812L300_24SLER.step"
 			(offset
 				(xyz 0 -0 0)
 			)
@@ -45925,7 +45925,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "ff224914-fc82-4569-999b-67b2455a256a")
 		)
-		(model "C:/Users/vodin/Downloads/CD4072BM/CD4072BM.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/CD4072BM/CD4072BM.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -46743,7 +46743,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "91588d96-3456-488f-8dbb-688f9b0fc937")
 		)
-		(model "C:/Users/vodin/Downloads/SMBJ15CA/SMBJ15CA.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/SMBJ15CA/SMBJ15CA.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -47944,7 +47944,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "283c373f-d977-4ed8-bff2-39ca0b96c549")
 		)
-		(model "C:/Users/vodin/Downloads/ADG5412FBCPZ-RL7/ADG5412FBCPZ-RL7.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/ADG5412FBCPZ-RL7/ADG5412FBCPZ-RL7.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -50083,7 +50083,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "7ec13f93-18ee-42bc-a7a5-faeec3309e48")
 		)
-		(model "C:/Users/vodin/Downloads/CD4514BM/CD4514BM.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/CD4514BM/CD4514BM.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -50645,7 +50645,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "a1c83ea1-368a-4ba2-a3c8-266cb702efcf")
 		)
-		(model "C:/Users/vodin/Downloads/ADG5412FBCPZ-RL7/ADG5412FBCPZ-RL7.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/ADG5412FBCPZ-RL7/ADG5412FBCPZ-RL7.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -51103,7 +51103,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "5d80317e-2b0a-4bbc-a253-25014854269f")
 		)
-		(model "C:/Users/vodin/Downloads/TLV1704AIPWR/TLV1704AIPWR.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/TLV1704AIPWR/TLV1704AIPWR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -52413,7 +52413,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "5df1cc47-278b-49c0-abc9-5b5ce1898672")
 		)
-		(model "C:/Users/vodin/Downloads/TLV1704AIPWR/TLV1704AIPWR.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/TLV1704AIPWR/TLV1704AIPWR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -53657,7 +53657,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "cd3a2e7a-f66b-4d77-9ab8-e874647935a0")
 		)
-		(model "C:/Users/vodin/Downloads/SMBJ15CA/SMBJ15CA.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/SMBJ15CA/SMBJ15CA.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -54712,7 +54712,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "6437e083-84a7-4b88-bced-2ca2ca461163")
 		)
-		(model "C:/Users/vodin/Downloads/ABM3B-25.000MHZ-D2Y-T/ABM3B-25.000MHZ-D2Y-T.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/ABM3B-25.000MHZ-D2Y-T/ABM3B-25.000MHZ-D2Y-T.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -55487,7 +55487,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "7f5f978f-e171-4c69-8188-1f6f4d532723")
 		)
-		(model "C:/Users/vodin/Downloads/ADG5412FBCPZ-RL7/ADG5412FBCPZ-RL7.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/ADG5412FBCPZ-RL7/ADG5412FBCPZ-RL7.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -55870,7 +55870,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "93f925b9-400b-40ce-90ee-c0b525dcde14")
 		)
-		(model "C:/Users/vodin/Downloads/OPA211ID/OPA211ID.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/OPA211ID/OPA211ID.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -57744,7 +57744,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "a317b537-b288-4f81-898e-56aac565ff6d")
 		)
-		(model "C:/Users/vodin/Downloads/OPA211ID/OPA211ID.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/OPA211ID/OPA211ID.step"
 			(offset
 				(xyz 0 0 0)
 			)
