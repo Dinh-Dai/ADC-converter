@@ -10080,6 +10080,18 @@
 			(uuid "fe548e46-8100-40db-8ef8-c0bf77995f8b")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MPT-0,5-9-2.54_1x09_P2.54mm_Horizontal.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/MTP/TerminalBlock_Phoenix_MPT-0,5-9-2.54_1x09_P2.54mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -49292,6 +49304,18 @@
 			(uuid "cdcea59a-a9c5-46cd-9813-68a6ae51cec2")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/MKDS/TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
