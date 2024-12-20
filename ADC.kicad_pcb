@@ -5734,7 +5734,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "1cf1b833-4951-4b38-a2c6-05ded6a9e8a1")
 		)
-		(model "C:/Users/vodin/Downloads/OPA211ID/OPA211ID.step"
+		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/OPA211ID/OPA211ID.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10081,17 +10081,6 @@
 		)
 		(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MPT-0,5-9-2.54_1x09_P2.54mm_Horizontal.wrl"
 			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/Skematic, Footprint, 3D, Datasheet/MTP/TerminalBlock_Phoenix_MPT-0,5-9-2.54_1x09_P2.54mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
