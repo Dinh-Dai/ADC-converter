@@ -5439,7 +5439,7 @@
 		(descr "C, Radial series, Radial, pin pitch=3.50mm, diameter=8mm, height=7mm, Non-Polar Electrolytic Capacitor")
 		(tags "C Radial series Radial pin pitch 3.50mm diameter 8mm height 7mm Non-Polar Electrolytic Capacitor")
 		(property "Reference" "C4"
-			(at 1.75 -5.25 360)
+			(at 1.75 -5.25 0)
 			(layer "F.SilkS")
 			(uuid "30c74ef0-bec7-42b0-bc50-39f059ac70f1")
 			(effects
@@ -5450,7 +5450,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 1.75 5.25 360)
+			(at 1.75 5.25 0)
 			(layer "F.Fab")
 			(uuid "2b7e7ce7-edfe-44c3-a905-07edcb633d35")
 			(effects
@@ -5538,7 +5538,7 @@
 			(uuid "b346368e-de74-41b7-a2a1-d8bce2bedbe9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.75 0 360)
+			(at 1.75 0 0)
 			(layer "F.Fab")
 			(uuid "c584b454-8ef6-46a2-804a-1d2aba65e671")
 			(effects
@@ -8606,7 +8606,7 @@
 			(uuid "1380a2fc-bf02-4f86-9abe-454d0d1e3c96")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "4f32c288-d3e2-4b95-b94a-54b3f386a9a7")
 			(effects
@@ -16477,7 +16477,7 @@
 		(descr "C, Radial series, Radial, pin pitch=3.50mm, diameter=8mm, height=7mm, Non-Polar Electrolytic Capacitor")
 		(tags "C Radial series Radial pin pitch 3.50mm diameter 8mm height 7mm Non-Polar Electrolytic Capacitor")
 		(property "Reference" "C1"
-			(at 1.75 -5.25 360)
+			(at 1.75 -5.25 0)
 			(layer "F.SilkS")
 			(uuid "1c202134-8bd7-4f8f-89bf-6c2e54ec24bf")
 			(effects
@@ -16488,7 +16488,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 1.75 5.25 360)
+			(at 1.75 5.25 0)
 			(layer "F.Fab")
 			(uuid "9c48975d-9eec-4b05-a7c9-e49eb7ffa462")
 			(effects
@@ -16576,7 +16576,7 @@
 			(uuid "8898c028-2ea4-4950-ab86-47898c25dddf")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.75 0 360)
+			(at 1.75 0 0)
 			(layer "F.Fab")
 			(uuid "e9dedc9c-14b5-4b4e-b9bb-7900694d4b64")
 			(effects
@@ -19752,7 +19752,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "81901ecd-e1e2-44f3-a4b0-40cbf574d37d")
-		(at 632.959137 474.220735 -90)
+		(at 633.05 474.08 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C34"
@@ -22937,7 +22937,7 @@
 		(uuid "9848c1a0-cecb-4b1c-927a-0df75432e1c4")
 		(at 596.075 439.91 180)
 		(property "Reference" "U5"
-			(at -3.30232 -19.4583 360)
+			(at -3.30232 -19.4583 0)
 			(layer "F.SilkS")
 			(uuid "a93ea293-67e3-441d-86da-c55ec1fb1853")
 			(effects
@@ -22948,7 +22948,7 @@
 			)
 		)
 		(property "Value" "DCP010505BP"
-			(at 10.445985 4.041125 360)
+			(at 10.445985 4.041125 0)
 			(layer "F.Fab")
 			(uuid "a1b3fb24-d481-498a-b591-9391b7d27fbc")
 			(effects
@@ -22959,7 +22959,7 @@
 			)
 		)
 		(property "Footprint" "DCP10505BP:DIP254P762X533-7P"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cdf6b0a4-0340-40d1-a68d-ea6a36b96607")
@@ -22971,7 +22971,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d88aba75-407d-435d-a081-a3be23d1c0fa")
@@ -22983,7 +22983,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "503e81aa-1efb-40cd-b726-0e488905aa83")
@@ -23988,7 +23988,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "999d7c9d-a0ef-4ba6-b1ec-e428592b73fb")
-		(at 631.916637 474.358235 -90)
+		(at 631.8 474.375 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C35"
@@ -69071,11 +69071,11 @@
 	)
 	(via
 		(at 631.075 473.695735)
-		(size 0.6)
-		(drill 0.3)
+		(size 0.2)
+		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
 		(net 25)
-		(uuid "c1b0d40b-3e2e-46b2-aab8-c1c9e2255b9a")
+		(uuid "c1b75f56-3385-4737-b4ce-1a7386caf126")
 	)
 	(segment
 		(start 633.275 475.895735)
@@ -81444,9 +81444,9 @@
 				(xy 565.380829 487.413537) (xy 565.380829 487.626079) (xy 565.380828 487.626105) (xy 565.380828 487.779841)
 				(xy 565.397695 487.864631) (xy 565.405013 487.901421) (xy 565.406766 487.910233) (xy 565.409823 487.925605)
 				(xy 565.421824 487.954577) (xy 565.466697 488.062912) (xy 565.466701 488.062919) (xy 565.549271 488.186495)
-				(xy 565.549272 488.186496) (xy 568.063667 490.700889) (xy 568.063688 490.700912) (xy 568.173098 490.810322)
-				(xy 568.242373 490.85661) (xy 568.269545 490.874765) (xy 568.296677 490.892894) (xy 568.433987 490.94977)
-				(xy 568.57975 490.978764) (xy 568.579754 490.978765) (xy 568.579755 490.978765) (xy 568.728379 490.978765)
+				(xy 565.549272 488.186496) (xy 568.063667 490.700889) (xy 568.063688 490.700912) (xy 568.173095 490.810319)
+				(xy 568.173102 490.810325) (xy 568.296675 490.892893) (xy 568.296676 490.892893) (xy 568.296677 490.892894)
+				(xy 568.433987 490.94977) (xy 568.57975 490.978764) (xy 568.579754 490.978765) (xy 568.579755 490.978765)
 				(xy 571.337195 490.978765) (xy 571.37815 490.985724) (xy 571.446472 491.009631) (xy 571.446478 491.009632)
 				(xy 571.44648 491.009633) (xy 571.446481 491.009633) (xy 571.446485 491.009634) (xy 571.625731 491.02983)
 				(xy 571.625735 491.02983) (xy 571.625739 491.02983) (xy 571.804984 491.009634) (xy 571.804987 491.009633)
@@ -81475,7 +81475,7 @@
 				(xy 646.022648 491.4505) (xy 646.022649 491.4505) (xy 646.227351 491.4505) (xy 646.227352 491.4505)
 				(xy 646.429534 491.418477) (xy 646.624219 491.35522) (xy 646.80661 491.262287) (xy 646.89959 491.194732)
 				(xy 646.972213 491.141971) (xy 646.972215 491.141968) (xy 646.972219 491.141966) (xy 647.116966 490.997219)
-				(xy 647.116968 490.997215) (xy 647.116971 490.997213) (xy 647.192765 490.89289) (xy 647.237287 490.83161)
+				(xy 647.116968 490.997215) (xy 647.116971 490.997213) (xy 647.192762 490.892894) (xy 647.237287 490.83161)
 				(xy 647.33022 490.649219) (xy 647.393477 490.454534) (xy 647.4255 490.252352) (xy 647.4255 490.047648)
 				(xy 647.393477 489.845466) (xy 647.385399 489.820606) (xy 647.330218 489.650776) (xy 647.288482 489.568865)
 				(xy 647.237287 489.46839) (xy 647.216298 489.439501) (xy 647.116971 489.302786) (xy 646.972213 489.158028)
